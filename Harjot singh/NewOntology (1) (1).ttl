@@ -1,0 +1,108 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 14 ###
+#  --------------------------- Property 0------------------------- 
+:because_of rdf:type owl:DatatypeProperty ;
+            rdfs:label "because of"@en; 
+            rdfs:domain :;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:because_of rdf:type owl:DatatypeProperty ;
+            rdfs:label "because of"@en; 
+            rdfs:domain :;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:because_of rdf:type owl:DatatypeProperty ;
+            rdfs:label "because of"@en; 
+            rdfs:domain :;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 3------------------------- 
+:because_of rdf:type owl:DatatypeProperty ;
+            rdfs:label "because of"@en; 
+            rdfs:domain :;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:because_of rdf:type owl:DatatypeProperty ;
+            rdfs:label "because of"@en; 
+            rdfs:domain :;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:By_taking_Action rdf:type owl:DatatypeProperty ;
+                  rdfs:label "By taking Action"@en; 
+                  rdfs:domain :Has_Solution;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 6------------------------- 
+:By_taking_Action rdf:type owl:DatatypeProperty ;
+                  rdfs:label "By taking Action"@en; 
+                  rdfs:domain :Has_Solution;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 7------------------------- 
+:By_taking_Action rdf:type owl:DatatypeProperty ;
+                  rdfs:label "By taking Action"@en; 
+                  rdfs:domain :Has_Solution;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:By_taking_Action rdf:type owl:DatatypeProperty ;
+                  rdfs:label "By taking Action"@en; 
+                  rdfs:domain :Has_Solution;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+:By_taking_Action rdf:type owl:DatatypeProperty ;
+                  rdfs:label "By taking Action"@en; 
+                  rdfs:domain :Has_Solution;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+:on rdf:type owl:DatatypeProperty ;
+    rdfs:label "on"@en; 
+    rdfs:domain :Has_Impact;
+    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 11------------------------- 
+:on rdf:type owl:DatatypeProperty ;
+    rdfs:label "on"@en; 
+    rdfs:domain :Has_Impact;
+    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 12------------------------- 
+:on rdf:type owl:DatatypeProperty ;
+    rdfs:label "on"@en; 
+    rdfs:domain :Has_Impact;
+    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 13------------------------- 
+:on rdf:type owl:DatatypeProperty ;
+    rdfs:label "on"@en; 
+    rdfs:domain :Has_Impact;
+    rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 4 ###
+#  --------------------------- Class  0------------------------- 
+:Traffic_Congestion rdf:type owl:Class; 
+                    rdfs:subClassOf : ;
+                    rdfs:subClassOf :Has_Solution ;
+                    rdfs:subClassOf :Has_Impact ;
+                    rdfs:label "Traffic Congestion"@en . 
+#  --------------------------- Class  1------------------------- 
+: rdf:type owl:Class; 
+  rdfs:label "Has Causes"@en . 
+#  --------------------------- Class  2------------------------- 
+:Has_Solution rdf:type owl:Class; 
+              rdfs:label "Has Solution"@en . 
+#  --------------------------- Class  3------------------------- 
+:Has_Impact rdf:type owl:Class; 
+            rdfs:label "Has Impact"@en . 
