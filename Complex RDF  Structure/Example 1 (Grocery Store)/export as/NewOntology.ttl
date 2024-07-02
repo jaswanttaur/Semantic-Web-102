@@ -1,0 +1,177 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 23 ###
+#  --------------------------- Property 0------------------------- 
+:wants_to_buy_apple rdf:type owl:ObjectProperty ;
+                    rdfs:label "wants to buy apple"@en; 
+                    rdfs:domain :Customer;
+                    rdfs:range :GrocesryStore . 
+#  --------------------------- Property 1------------------------- 
+:has_deparment rdf:type owl:ObjectProperty ;
+               rdfs:label "has deparment"@en; 
+               rdfs:domain :GrocesryStore;
+               rdfs:range :Fruits . 
+#  --------------------------- Property 2------------------------- 
+:has_department rdf:type owl:ObjectProperty ;
+                rdfs:label "has department"@en; 
+                rdfs:domain :GrocesryStore;
+                rdfs:range :Dairy . 
+#  --------------------------- Property 3------------------------- 
+:has_department rdf:type owl:ObjectProperty ;
+                rdfs:label "has department"@en; 
+                rdfs:domain :GrocesryStore;
+                rdfs:range :Vegetables . 
+#  --------------------------- Property 4------------------------- 
+:employee_1 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 1"@en; 
+            rdfs:domain :Employees;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:employee_2 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 2"@en; 
+            rdfs:domain :Employees;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 6------------------------- 
+:product_1 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 1"@en; 
+           rdfs:domain :Products;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 7------------------------- 
+:product_2 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 2"@en; 
+           rdfs:domain :Products;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:product_3 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 3"@en; 
+           rdfs:domain :Products;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+:employee_1 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 1"@en; 
+            rdfs:domain :Class17;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+:employee_2 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 2"@en; 
+            rdfs:domain :Class17;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 11------------------------- 
+:product_1 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 1"@en; 
+           rdfs:domain :Class18;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 12------------------------- 
+:product_2 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 2"@en; 
+           rdfs:domain :Class18;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 13------------------------- 
+:product_3 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 3"@en; 
+           rdfs:domain :Class18;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:employee_1 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 1"@en; 
+            rdfs:domain :Class24;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 15------------------------- 
+:employee_2 rdf:type owl:DatatypeProperty ;
+            rdfs:label "employee 2"@en; 
+            rdfs:domain :Class24;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 16------------------------- 
+:product_1 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 1"@en; 
+           rdfs:domain :Class25;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 17------------------------- 
+:Product_2 rdf:type owl:DatatypeProperty ;
+           rdfs:label "Product 2"@en; 
+           rdfs:domain :Class25;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 18------------------------- 
+:product_3 rdf:type owl:DatatypeProperty ;
+           rdfs:label "product 3"@en; 
+           rdfs:domain :Class25;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 19------------------------- 
+:got_apple rdf:type owl:ObjectProperty ;
+           rdfs:label "got apple"@en; 
+           rdfs:domain :GrocesryStore;
+           rdfs:range :Customer . 
+#  --------------------------- Property 20------------------------- 
+:assk_to_bring_apple rdf:type owl:ObjectProperty ;
+                     rdfs:label "ask to bring apple"@en; 
+                     rdfs:domain :GrocesryStore;
+                     rdfs:range :Employees . 
+#  --------------------------- Property 21------------------------- 
+:bring_apple rdf:type owl:ObjectProperty ;
+             rdfs:label "bring apple"@en; 
+             rdfs:domain :Fruits;
+             rdfs:range :Employees . 
+#  --------------------------- Property 22------------------------- 
+:brings_apple rdf:type owl:ObjectProperty ;
+              rdfs:label "brings apple"@en; 
+              rdfs:domain :Employees;
+              rdfs:range :GrocesryStore . 
+###  Class Definitions (Number of Classes) 11 ###
+#  --------------------------- Class  0------------------------- 
+:Customer rdf:type owl:Class; 
+          rdfs:label "Customer"@en . 
+#  --------------------------- Class  1------------------------- 
+:GrocesryStore rdf:type owl:Class; 
+               rdfs:label "Grocery Store"@en . 
+#  --------------------------- Class  2------------------------- 
+:Fruits rdf:type owl:Class; 
+        rdfs:subClassOf :Products ;
+        rdfs:subClassOf :Employees ;
+        rdfs:label "Fruits"@en . 
+#  --------------------------- Class  3------------------------- 
+:Dairy rdf:type owl:Class; 
+       rdfs:subClassOf :Class17 ;
+       rdfs:subClassOf :Class18 ;
+       rdfs:label "Dairy"@en . 
+#  --------------------------- Class  4------------------------- 
+:Vegetables rdf:type owl:Class; 
+            rdfs:subClassOf :Class24 ;
+            rdfs:subClassOf :Class25 ;
+            rdfs:label "Vegetables"@en . 
+#  --------------------------- Class  5------------------------- 
+:Employees rdf:type owl:Class; 
+           rdfs:label "Employees"@en . 
+#  --------------------------- Class  6------------------------- 
+:Products rdf:type owl:Class; 
+          rdfs:label "Products"@en . 
+#  --------------------------- Class  7------------------------- 
+:Class17 rdf:type owl:Class; 
+         rdfs:label "Employees"@en . 
+#  --------------------------- Class  8------------------------- 
+:Class18 rdf:type owl:Class; 
+         rdfs:label "Products"@en . 
+#  --------------------------- Class  9------------------------- 
+:Class24 rdf:type owl:Class; 
+         rdfs:label "Employees"@en . 
+#  --------------------------- Class  10------------------------- 
+:Class25 rdf:type owl:Class; 
+         rdfs:label "Products"@en . 

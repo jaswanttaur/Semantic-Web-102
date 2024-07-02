@@ -1,0 +1,484 @@
+.content1{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.header1{
+    width:100%;
+    height:600px;
+    background-color:  rgb(215, 214, 214);
+    margin: 0 auto;
+}
+.navbar{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    float: left;    
+    padding: 40px 40px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
+    color: grey;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size: x-large;
+}
+.navbar ul li a:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+.content1 .navbar button{
+    width: 175px;
+    height: 40px;
+    font-size: large;
+    font: lighter;
+    color:white;
+    background-color: black;
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 40px;
+    margin-right: 25px;
+}
+.content1 .navbar button:hover{
+    background-color: #454343;
+}
+.content1 .text1{
+    width: 400px;
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+.content1 .text2{
+    width: 400px;
+    position: absolute;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    font-style: normal;
+    text-align: justify;
+    margin-top: 348px;
+    margin-left: 30px;
+}
+.content1 .img1{
+    width: 550px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 550px;
+    padding-top: 140px ;
+}
+.content1 button{
+    margin-left: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    margin-top: -50px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content1 button:hover{
+    background-color: #2f2c2c;
+}
+.content2{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.header2{
+    width:100%;
+    height:310px;
+    background-color: rgb(23, 21, 21);
+}
+.content2 .text3{
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 400px;
+}
+.content2 .text4{
+    width: 600px;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding-left: 310px;
+    padding-top: 25px;
+}
+.header2 .content2 button{
+    
+    font-size: medium;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    border-color: white;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.header2 .content2 button:hover{
+    background-color: #2f2c2c;
+}
+.content3{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.header3{
+    width:100%;
+    height:1220px;
+    background-color: rgb(215, 214, 214);
+}
+.content3 .image{
+    width: auto;
+}
+.content3 .image .img2{
+    width: 350px;
+    height: 200px;
+    padding-top: 60px;
+    float: left;
+}
+.content3 .image .img3{
+    width: 350px;
+    height: 200px;
+    padding-top: 60px;
+    padding-left: 56px;
+    float: left;
+}
+.content3 .image .img4{
+    width: 350px;
+    height: 200px;
+    padding-top: 60px;
+    padding-left: 56px;
+    float: left;
+}
+.content3 .image .img2 .text5{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+}
+.content3 .image .img3 .text6{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+}
+.content3 .image .img4 .text7{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+}
+.content3 .image .img2 .text5 .cont1{
+    font-size: 17px;
+    font-weight:normal;
+    font-family: serif;
+    color: black;
+    font-style: normal;
+    text-align: justify;
+    padding-top: 10px;
+}
+.content3 .image .img3 .text6 .cont2{
+    font-size: 17px;
+    font-weight: normal;
+    font-family: serif;
+    color: black;
+    font-style: normal;
+    text-align: justify;
+    padding-top: 10px;
+}
+.content3 .image .img4 .text7 .cont3{
+    font-size: 17px;
+    font-weight: normal;
+    font-family: serif;
+    color: black;
+    font-style: normal;
+    text-align: justify;
+    padding-top: 10px;
+}
+.content3 .image .text8{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    color: #000;
+    font-style: normal;
+    text-align: center;
+    padding-top: 800px;
+}
+.content3 .image .text8 .text9{
+    font-size: 19px;
+    font-weight: normal;
+    font-family: serif;
+    word-spacing: 2px;
+    color: #000;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+.content3 .image .img5{
+    width: 50px;
+    height: 50px;
+    padding-left: 550px;
+}
+.content7{
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+.header7{
+    width:100%;
+    height:650px;
+    background-color: rgb(215, 214, 214);
+}
+.content7 .img6{
+    width: 300px;
+    height: 450px;
+    padding-left: 40px;
+    float: left;
+}
+.content7 .img7{
+    width: 320px;
+    height: 220px;
+    padding-left: 150px;
+    float: left;
+}
+.content7 .text10{
+    width: 250px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    word-spacing: 5px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 150px;
+    text-decoration: underline;
+    float: left;
+}
+.content7 .text11{
+    width: 390px;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: lighter;
+    color: #000;
+    word-spacing: 2px;
+    margin-left: -110px;
+    padding-top: 107px;
+    text-align: justify;
+    float: left;
+}
+.content4{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.header4{
+    width:100%;
+    height:650px;
+    background-color: black;
+}
+.content4 .text12{
+    width: 500px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    line-height: 55px;
+    padding-top: 50px;
+}
+.content4 .text13{
+    width: 450px;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 60px;
+}
+.content4 .text14{
+    width: 500px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: normal;
+    color: white;
+    padding-top: 60px;
+}
+.content4 .img8{
+    width: 500px;
+    height: 500px;
+    padding-left: 500px;
+    margin-top: -500px;
+}
+.content5{
+    width:1170px;
+    height: 800px;
+    margin: 0 auto;
+}
+.header5{
+    width:100%;
+    height:800px;
+    background-color:white;
+}
+.content5 .text18{
+    width: 690px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 55px;
+    color: #000;
+    font-style: normal;
+    padding-top: 80px;
+}
+.content5 .text19{
+    width: 690px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: serif;
+    word-spacing: 2px;
+    color: #000;
+    font-style: normal;
+}
+.content5 .text19 .img9{
+    width: 500px;
+    height: 550px;
+    padding-left: 750px;
+    margin-top: -520px;
+}
+.content9{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.header9{
+    width:100%;
+    height:600px;
+    background-color: white;
+}
+.content9 .text21{
+    width: 600px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    word-spacing: 10px;
+    padding-top: 70px;
+}
+.content9 .text22{
+    width: 600px;
+    padding-top: 50px;
+    border-radius: 30%;
+    font-size:x-large;
+}
+.header9 .content9 .text22 button{
+    font-size: small;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header9 .content9 .text22 button:hover{
+    background-color: #2f2c2c;
+}
+.content9 .img10{
+    float: left;
+    margin-left: 400px;
+    margin-top: -350px;
+}
+.content6{
+    width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.header6{
+    width:100%;
+    height:400px;
+    background-color: rgb(215, 214, 214);
+}
+.content6 .text15{
+    width: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    padding-top: 70px;
+}
+.content6 .text16{
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    padding-left: 250px;
+    margin-top: -80px;
+}
+.navbars{
+    list-style-type: none;
+    margin-left: 215px;
+}
+.navbars ul{
+    list-style-type: none;
+}
+.navbars ul li{
+    list-style-type: none;
+}
+.navbars ul li a{
+    text-decoration: none;
+    float: left;    
+    padding: 40px 40px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
+    color: #000;
+    font-size: 20px;
+}
+.navbars ul li a:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+.content6 .text17{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: serif;
+    color: black;
+    word-spacing: 5px;
+    padding-left: 300px;
+    padding-top: 200px;
+}
