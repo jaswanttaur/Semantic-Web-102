@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentList>
+    <student1>
+        <name>Inderpal</name>
+    </student1>
+    <student2>
+        <name>charanjeet</name>
+    </student2>
+    <student3>
+        <name>Harman</name>
+    </student3>
+    <student4>
+        <name>Gurpartap</name>
+    </student4>
+</studentList>

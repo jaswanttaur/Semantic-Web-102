@@ -1,0 +1,470 @@
+.container{
+  width: 1200px;  
+  height: auto;
+  margin: 0 auto;
+}
+.container .top{
+  width: 1200px;
+  height: 600px;
+  background-image:linear-gradient(to right, yellow, whitesmoke);
+}
+.container .top .header{
+  width: 1200px;
+  height: 70px;
+}
+
+.container .top .header .logo {
+  width: 300px;
+  height: 70px;
+  font-size: xxx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.container .top .navrow{
+  font-size: small;
+  width: 650px;
+  height: 0px;
+  float: right;
+  margin-top: -50px;
+  margin-left: 20px;
+  text-align: right;
+  margin-right: 50px;
+  padding-right: 0;
+  word-spacing: 3px;
+  text-decoration: none;
+  margin-bottom: 0;
+
+  /*font-family: Bebas Neue;*/
+}
+.container .top .navrow .a{
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+.container .top .navrow .a:hover{
+  color: red;
+}
+.container .top .writeup{
+  width: 300px;
+  height: 100px;
+}
+.container .top .writeup .leftie{
+  margin-top: 80px;
+  text-align: left;
+  width: 300px;
+  margin-left: 180px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.container .top .writeup .leftie h1{
+  margin-top: 5px;
+  width: 300px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: xxx-large;
+  font-family: Spicy Rice;
+}
+.container .top .writeup .leftie h2{
+  width: 300px;
+  
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: sofia;
+}
+.container .top .writeup .leftie h4{
+  margin-top: 10px;
+  text-align: left;
+  width: 300px;
+  margin-left: -10px;
+  font-family: Josefin Sans; 
+}
+.container .top .writeup .leftie .happy h3{
+  margin-left: 30px; 
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 0px;
+  font-family: Chakra Petch;
+}
+.container .top .writeup .leftie p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container .top .writeup .leftie .happy h2{
+  margin-left: 90px;
+  margin-top: 10px;
+  height: 20px;
+  font-weight: 300; 
+  font-family: Fredericka the Great;
+}
+.container .top .writeup .leftie button{
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: large;
+  text-align: center;
+  margin-left: 50px;
+  background-color: rgb(238, 251, 6);
+}
+.container .top .writeup .leftie button:hover
+{
+  background-color: rgb(177, 173, 173);
+}
+.container .top .writeup .leftie button:active
+{
+  background-color: rgb(15, 8, 8);
+  color: aliceblue;
+}
+.container .top .writeup .food-img img{
+  margin-left: 600px;
+  border-radius: 400px;
+  width: 600px;
+  height: 600px;
+  margin-top: -540px;
+}
+.container .choose h1
+{
+  font-weight: 100;
+  font-size: xxx-large;
+  text-align: center;
+  font-family: Fredericka the Great;
+}
+.container .choose h4
+{
+  font-weight: 800;
+  font-size:large;
+  text-align: center;
+  font-family: cursive; 
+}
+.container .dishes{
+  width: 1200px;
+  margin-top: 120px;
+  height: auto;
+  background-color: bisque;
+  padding: 20px 0;
+}
+.container .dishes .d1{
+  width: 400px;
+  height: 80px;
+  background-size: cover;
+  background-color: bisque;
+ float: left;
+ /* display: flex;
+            align-items: center;
+            justify-content: space-around; */
+ 
+}
+.container .dishes .d1 .pizza{
+  width: 350px;
+  height: 250px;
+  align-items: center;
+  padding: 40px;
+  border-radius: 200px;
+}
+.container .dishes .d1 h3{
+  font-weight: 600;
+  font-size:large;
+  text-align: center;
+  font-family:cursive; 
+}
+.container .dishes .d1 p{
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.container .dishes .d1 .order{
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 110px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+.container .dishes .d1 button:hover
+{
+  background-color: yellow;
+}
+.container .dishes .d1 button:active
+{
+  background-color: rgb(199, 199, 0);
+}
+.container .dishes .d2{
+  width: 400px;
+  height: 80px;
+ background-color: bisque;
+ float: left;
+}
+.container .dishes .d2 .burger{
+  height: 250px;
+  align-items: center;
+  padding: 50px;
+  border-radius: 50px;
+}
+.container .dishes .d2 h3{
+  font-weight: 600;
+  font-size:large;
+  text-align: center;
+  font-family:cursive; 
+}
+.container .dishes .d2 p{
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.container .dishes .d2 BUTTON{
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  margin-left: 110px;
+  margin-left: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+.container .dishes .d2 button:hover
+{
+  background-color: yellow;
+}
+.container .dishes .d2 button:active
+{
+  background-color: rgb(199, 199, 0);
+}
+.container .dishes .d3{
+  width: 400px;
+  height: 80px;
+ background-color: bisque;
+ float: left;
+}
+.container .dishes .d3 .pasta{
+  height: 250px;
+  align-items: center;
+  padding: 50px;
+  border-radius: 100%;
+}
+.container .dishes .d3 h3{
+  font-weight: 600;
+  font-size:large;
+  text-align: center;
+  font-family:cursive; 
+}
+.container .dishes .d3 p{
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.container .dishes .d3 .order{
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  margin-left: 110px;
+  margin-left: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+.container .dishes .d3 button:hover
+{
+  background-color: yellow;
+}
+.container .dishes .d3 button:active
+{
+  background-color: rgb(199, 199, 0);
+}
+.container .discover{
+  width: 1200px;
+  margin-top: 550px;
+}
+.container .discover h3{
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .discover h1{
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 100;
+  font-family: Fredericka the Great;
+}
+.container .discover p{
+  font-size: medium;
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .menu-pics
+{
+  margin-top: 50px;
+  width: 1200px;
+  float: left;
+  margin-left: 100px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container .menu-pics .p1
+{
+  float: left;
+  width: 500px;
+  margin-right: 50px;
+}
+.container .menu-pics .p2
+{
+  float: left;
+  width: 500px;
+}
+.container .res {
+  text-align: center;
+ }
+.container .res h2{
+  font-size: xxx-large;
+  font-weight: 100;
+  font-family: Fredericka the Great;
+  margin-bottom: 10px;
+}
+.container .res h1{
+  margin-top: 0;
+  font-family: Bebas Neue;
+  font-size: xxx-large;
+  margin-bottom: 30px;
+}
+.container .reservation{
+  margin-top: 10px;
+  width: 1200px;
+  font-size: xxx-large;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container .reservation .name1{
+  width: 400px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgb(239, 236, 236);
+  border-radius: 22px;
+}
+.container .reservation .name2{
+  width: 400px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgb(239, 236, 236);
+  border-radius: 22px;
+}
+.container .reservation .tele1{
+  width: 400px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgb(239, 236, 236);
+  border-radius: 22px;
+}
+.container .reservation .tele2{
+  width: 400px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 900;
+  background-color: rgb(239, 236, 236);
+  border-radius: 22px;
+}
+.container .reservation .time2{
+  width: 400px;
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 900;
+  background-color: rgb(239, 236, 236);
+  border-radius: 22px;
+}
+.container .reservation button{
+  width: 400px;
+  height: 50px;
+  border-radius: 22px;
+  font-weight: 1000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  text-align: center;
+
+  background-color: yellow;
+}
+.container .reservation button:hover{
+  background-color: rgb(194, 194, 194);
+  cursor: pointer;
+}
+.container .reservation button:active{
+  background-color: rgb(72, 72, 72);
+  color: white;
+}
+.container .footer{
+  margin-top: 150px;
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+.container .footer .foot{
+  opacity: 0.8;
+  width: 1200px;
+  height: 600px;
+}
+.container .footer .left{
+  margin-top: 0;
+  color: aliceblue;
+  position: absolute;
+  width: 600px;
+  bottom: 8px;
+  left: 16px;
+  float: left;
+}
+.container .footer .right{
+  margin-top: 0;
+  color: aliceblue;
+  position: absolute;
+  width: 600px;
+  bottom: 8px;
+  left: 16px;
+  float: right;
+}
+.container .footer .left h1{
+  font-weight: 900;
+  font-size: xxx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  word-spacing: 5px;
+}
+.container .footer .left h4{
+  font-weight: 300;
+font-family: Dancing Script;
+font-size: large;
+}
+.container .footer .left h3{
+  font-weight: 600;
+font-family: Abel;
+}
+.container .footer .right p{
+  margin-left: 100%;
+  font-size: x-large;
+  width: 600px;
+  margin-top: 50px;
+  text-align: left;
+  margin-bottom: 60px;
+  font-family: Space Grotesk;
+}
