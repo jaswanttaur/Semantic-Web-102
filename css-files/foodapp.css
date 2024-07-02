@@ -1,0 +1,212 @@
+.container{
+  width: 1170px;
+  height: auto;
+  margin: auto;
+  border: 5px;
+}
+.container .portion1{
+  width: 1170px;
+  height: 400px;
+}
+.container .portion1 .header{
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.container .portion1 .bgimagediv{
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/yellow\ background\ image.jpg);
+}
+.logodiv{
+  height: 24px;
+  width: auto;
+  float: left;
+}
+.c2{
+  font-family:Bebas Neue;
+  font-size: 24px;
+  width: 200px;
+}
+.phonelogo{
+  margin-top: -30px;
+  margin-right: 0px;
+  height: 32px;
+  width: auto;
+  float: right;
+}
+.c4{
+  font-family: Oswald;
+  margin-top: -30px;
+  float: right;
+}
+.h2{
+  height: 36px;
+  margin-top: 24px;
+  padding-right: 16px;
+}
+.navbar{
+  margin-left: 12px;
+  float: right;
+  text-decoration: none;
+  font-family: Kanit;
+  color: black;
+}
+.ayhtext{
+  margin-top: 36px;
+  margin-left: 10%;
+  width: 500px;
+  text-align: center;
+  float: left;
+}
+.ayh{
+  font-family: sofia;
+  font-size: 36px;
+}
+.img1{
+  height: 350px;
+  width: auto;
+  z-index: 1;
+  margin-left: 12px;
+  margin-top: -32px;
+  float: left;
+}
+.start-ordering{
+  font-family: Oswald;
+  font-size: 24px;
+}
+.dw{
+  font-family: Fredericka the Great;
+  font-size: 40px;
+}
+.b2g1{
+  font-family: Fredericka the Great;
+  font-size: 36px;
+}
+.tmhp{
+  margin-top: 8px;
+  font-family:Bebas Neue;
+  font-size: 24px
+}
+.c5{
+  font-family: Fredericka the Great;
+  font-size: 40px;
+  text-align: center;
+  width: 600px;
+  margin-left: 300px;
+}
+.c6{
+  text-align: center;
+  font-family: Kanit;
+}
+.order{
+  float: left;
+  height: 600px;
+  width: 310px;
+  text-align: center;
+}
+.foodimg1{
+  width: 300px;
+  height: auto;}
+.portion2{
+  width: 1170px;
+  height: 600px;
+  margin: auto;
+}
+.itemname{
+  font-weight: bold;
+  font-family: Oswald;
+}
+.itemdes{
+  font-family: Kanit;
+  font-weight: 200;
+}
+.orderbutton{
+  background-color: #FFEB3C;
+  border: none;
+  border-radius: 4px;
+  font-family: Oswald;
+  padding: 8px 16px 8px 16px;
+  margin-top: 12px;
+  font-size: 18px;
+}
+.portion3{
+  width: 1170px;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+}
+.discover{
+  font-family: Kanit;
+  font-weight: bold;
+  font-size: 26px;
+}
+.upcomingevents{
+  font-family: Fredericka the Great;
+  font-size: 55px;
+  font-weight: 500;
+}
+.eventdes{
+  font-family: kanit;
+  margin-top: 8px;
+  font-weight:300;
+}
+.picdiv{
+  height: 350px;
+  width: 1170px;
+  padding-top: 24px;
+}
+.pic1, .pic3{
+  padding-top: 40px;
+  float: left;
+  height: auto;
+  width: 350px;
+  filter: brightness(50%);
+}
+.pic2{
+  float: left;
+  height:auto;
+  width: 470px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px black;
+}
+.portion4{
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+}
+.try1{
+  width: 490px;
+  height: 320px;
+  object-fit:contain;
+  float: left;
+  background-image: url(../img/recommendation1.jpg);
+  font-family: Kanit;
+  font-size: 24px;
+  color: white;
+}
+.trytoday{
+  font-size: 32px; font-family: oswald; padding-top: 12px; padding-left: 12px;   font-weight: bold;
+}
+.try2{
+  width: 480px;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit:contain;
+  float: right;
+  background-image: url(../img/recommendation2.jpg);
+  font-family: Kanit;
+  font-size: 24px;
+  color: white;
+}
+.try3{
+  text-align: right;
+  width: 480px;
+  height: 150px;
+  object-fit:contain;
+  float: right;
+  background-image: url(../img/recommendation3.jpg);
+  font-family: Kanit;
+  font-size: 24px;
+  color: white;
+}
