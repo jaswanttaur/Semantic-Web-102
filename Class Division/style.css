@@ -1,0 +1,41 @@
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .header{
+    width: 1170px;
+    height: 200px;
+    margin: 0 auto;
+    background-color:blue;
+}
+.container .content1{
+    width: 390px;
+    height: 200px;
+    background-color:brown;
+    float:left;
+}
+.container .content2{
+    width: 390px;
+    height: 200px;
+    background-color:whitesmoke;
+    float:left;
+}
+.container .content3{
+    width: 390px;
+    height: 200px;
+    background-color:blueviolet;
+    float:left;
+}
+.container .content4{
+    width: 780px;
+    height: 200px;
+    background-color:green;
+    float:left;
+}
+.container .content5{
+    width: 390px;
+    height: 200px;
+    background-color:brown;
+    float:left;
+}
