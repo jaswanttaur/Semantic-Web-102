@@ -1,0 +1,609 @@
+.container{
+    width: 1170px;
+    height: auto;
+    margin:auto;
+}
+.container .body{
+    overflow: hidden;
+}
+.container .header{
+    width: 1170px;
+    height: 470px;
+    background-image:-webkit-linear-gradient(155deg, #ffe537 ,#12b17cab );
+}
+.navbar{
+    list-style-type: none;
+    margin-left: 735px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    float: left;    
+    padding: 15px 18px 0px 10px;
+}
+.navbar ul li a:hover{
+    background-color: #000;
+    color: aliceblue;
+}
+.container .header .text{
+    position: absolute;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    margin-top: 18px;
+    margin-left: 55px;
+    float: left;
+}
+.container .header .img2{
+    width: 40px;
+    height: 40px;
+    background-image: url(images/plate.png);
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .header .text1{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 950px;
+    text-align: right;
+    float: right;
+}
+.container .header .img1{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/smartphone-call.png);
+    margin-top: 10px;
+    margin-left: 1000px;
+    background-color: transparent;
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+.container .header .text2{
+    position: absolute;
+    font-size: 30px;
+    font-family: Cursive;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.container .header .text3{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+.container .header .text4{
+    position: absolute;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    margin-top: 185px;
+    margin-left: 90px;
+}
+.container .header .text5{
+    position: absolute;
+    font-size: 19px;
+    font-family: serif;
+    color: black;
+    font-style: normal;
+    margin-top: 240px;
+    margin-left: 115px;
+}
+.container .header .text6{
+    position: absolute;
+    font-size: 48px;
+    font-family: serif;
+    color: black;
+    font-style: normal;
+    margin-top: 235px;
+    margin-left: 250px;
+}
+.container .header .text7{
+    position: absolute;
+    color: black;
+    background-color: transparent;
+    color: #000;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid#000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: serif;
+    top: 350px;
+    right: 930px;
+}
+.container .header .text7:hover{
+    color: white;
+    background-color: black;
+}
+.container .header .img{
+    position: absolute;
+    top: 170px;
+    right: 280px;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Filipino-Spaghetti.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .contentrow1{
+    width: 1170px;
+    height: 200px;
+    background-color: white;
+}
+.container .contentrow1 .text8{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    padding: 30px;
+}
+.container .contentrow1 .text9{
+    width: 1000px;
+    font-size: 18px;
+    font-family: serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+    margin-top:-20px;
+    margin-left: 70px;
+}
+.container .contentrow2{
+    width: 1170px;
+    height: 100px;
+    background-color: #12b17cab;
+}
+.container .contentrow2 .img3{
+    position: absolute;
+    top: 640px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/tomato-pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .contentrow2 .img3 .text18{
+    position: absolute;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    margin-top: 340px;
+    margin-left: 35px;
+}
+.container .contentrow2 .img4{
+    position: absolute;
+    top: 640px;
+    left: 560px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/garlic-bread.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .contentrow2 .img4 .text19{
+    position: absolute;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    margin-top: 340px;
+    margin-left: 35px;
+}
+.container .contentrow2 .img5{
+    position: absolute;
+    top: 640px;
+    left: 1000px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/dish.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .contentrow2 .img5 .text20{
+    position: absolute;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    margin-top: 340px;
+    margin-left: 35px;
+}
+.container .contentrow6{
+    width: 1170px;
+    height: 300px;
+    background-color: white;
+}
+.container .contentrow6 .text21{
+    position: absolute;
+    color: black;
+    background-color: #ffdd02;
+    color: #000;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: serif;
+    top: 970px;
+    right: 1020px;
+}
+.container .contentrow6 .text21:hover{
+    color: white;
+}
+.container .contentrow6 .text22{
+    position: absolute;
+    color: black;
+    background-color: #ffdd02;
+    color: #000;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: serif;
+    top: 970px;
+    left: 1030px;
+}
+.container .contentrow6 .text22:hover{
+    color: white;
+}
+.container .contentrow6 .text23{
+    position: absolute;
+    color: black;
+    background-color: #ffdd02;
+    color: #000;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: serif;
+    top: 970px;
+    right: 610px;
+}
+.container .contentrow6 .text23:hover{
+    color: white;
+}
+.container .contentrow3{
+    width: 1170px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.container .contentrow3 .text10{
+    font-size: 30px;
+    font-family: serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    padding: 30px;
+}
+.container .contentrow3 .text11{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    margin-top: -35px;
+}
+.container .contentrow3 .text12{
+    font-size: 18px;
+    font-family: serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5px;
+}
+.container .contentrow4{
+    width: 1170px;
+    height: 200px;
+}
+.container .contentrow4 .cont1{
+    width: 380px;
+    height: 180px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    opacity: 0.5;
+    background-color: transparent;
+    background-image: url(images/pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .contentrow4 .cont2{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 410px;
+    background-color: transparent;
+    background-image: url(images/pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .contentrow4 .cont3{
+    width: 380px;
+    height: 180px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 810px;
+    opacity: 0.5;
+    background-color: transparent;
+    background-image: url(images/noodles.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .contentrow5{
+    width: 1170px;
+    height:500px;
+    background-color: white;
+}
+.container .contentrow5 .cont4{
+    width: 450px;
+    height:300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: transparent;
+    background-image: url(images/popular\ pasta.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left
+}
+.container .contentrow5 .cont5{
+    width: 500px;
+    height:140px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 650px;
+    background-color: transparent;
+    background-image: url(images/Burger.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left
+}
+.container .contentrow5 .cont6{
+    width: 500px;
+    height:140px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 650px;
+    background-color: transparent;
+    background-image: url(images/Burger3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left
+}
+.container .contentrow7{
+    width: 1170px;
+    height: 200px;
+    background-color: white;
+}
+.container .contentrow7 .text13{
+    font-size: 30px;
+    font-family: serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+.container .contentrow7 .text14{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    word-spacing: 10px;
+    font-style: normal;
+    text-align: center;
+    margin-top: -10px;
+}
+.container .contentrow7 .text15{
+    position: absolute;
+    top: 2100px;
+    right: 500px;
+}
+.container .contentrow7 .text17{
+    position: absolute;
+    color: black;
+    background-color: #ffdd02;
+    padding: 4px 55px;
+    border: 2px #ffdd02;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px 2px;
+    font-family: serif;
+    top: 2152px;
+    right: 500px;
+}
+.container .contentrow7 .text17:hover{
+    color: white;
+    background-color: black;
+}
+.container .footer{
+    width: 1170px;
+    height: 500px;
+    background-color: black;
+}
+.container .footer .text16{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffe537;
+    word-spacing: 10px;
+    font-style: normal;    
+    padding: 50px;
+    margin-left: 50px;
+}
+.container .footer .img6{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/plate1.png);
+    margin-top: -115px;
+    margin-left: 30px;    
+    background-color: black;
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .footer .text24{
+    font-size: 15px;
+    font-family: serif;
+    color: #ffff;
+    word-spacing: 10px;
+    font-style: normal;
+    width: 500px; 
+    margin-left: 50px;
+}
+.container .footer .text25{
+    font-size: 15px;
+    font-family: serif;
+    color: #ffff;
+    word-spacing: 10px;
+    font-style: normal;
+    width: 400px;  
+    margin-top: -50px;
+    margin-left: 800px;
+}
+.container .footer .text25 .img7{
+    width: 20px;
+    height: 20px;
+    background-image: url(images/place.png);
+    margin-right: 10px;
+    margin-top: -3px;
+    background-color: black;
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .footer .text26{
+    font-size: 15px;
+    font-family: serif;
+    color: #ffff;
+    word-spacing: 10px;
+    font-style: normal;
+    width: 400px;  
+    margin-top: 10px;
+    margin-left: 800px;
+}
+.container .footer .text26 .img8{
+    width: 20px;
+    height: 20px;
+    background-image: url(images/email.png);
+    margin-right: 10px;
+    margin-top: -3px;
+    background-color: black;
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.container .footer .text27{
+    font-size: 15px;
+    font-family: serif;
+    color: #ffff;
+    word-spacing: 10px;
+    font-style: normal;
+    width: 400px;  
+    margin-top: 150px;
+    margin-left: 50px;
+}
