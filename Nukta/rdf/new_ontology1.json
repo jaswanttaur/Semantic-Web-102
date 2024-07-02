@@ -1,0 +1,554 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/newOntology/",
+    "title": {
+      "en": "New ontology"
+    },
+    "description": {
+      "en": "New ontology description"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.65",
+      "translation": [
+        16.45,
+        122.28
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 160,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId7",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId8",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId10",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId11",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId12",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId16",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId17",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId18",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId19",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class1",
+      "iri": "http://visualdataweb.org/newOntology/Patient",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Patient",
+      "pos": [
+        770.72,
+        333.56
+      ]
+    },
+    {
+      "id": "Class2",
+      "iri": "http://visualdataweb.org/newOntology/Doctor",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Doctor",
+      "pos": [
+        775.79,
+        648.27
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://visualdataweb.org/newOntology/Medication",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Medication",
+      "pos": [
+        488.73,
+        236.93
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://visualdataweb.org/newOntology/Disease",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Disease",
+      "pos": [
+        687.79,
+        34.24
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://visualdataweb.org/newOntology/Test",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Test",
+      "pos": [
+        1048.38,
+        314.02
+      ]
+    },
+    {
+      "id": "NodeId7",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        636.89,
+        523.44
+      ]
+    },
+    {
+      "id": "NodeId8",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        980.6,
+        97.91
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://visualdataweb.org/newOntology/Measurement",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Measurement",
+      "pos": [
+        1329.07,
+        349.19
+      ]
+    },
+    {
+      "id": "NodeId10",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        506.5,
+        -89.66
+      ]
+    },
+    {
+      "id": "NodeId11",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        289.16,
+        160.34
+      ]
+    },
+    {
+      "id": "NodeId12",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        296.69,
+        355.85
+      ]
+    },
+    {
+      "id": "NodeId16",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        576.62,
+        748.73
+      ]
+    },
+    {
+      "id": "NodeId17",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        564.67,
+        405.75
+      ]
+    },
+    {
+      "id": "NodeId18",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1217.42,
+        546.7
+      ]
+    },
+    {
+      "id": "NodeId19",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1246.29,
+        136.67
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty2",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty6",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty7",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty9",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty10",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty11",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty16",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty17",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty19",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://visualdataweb.org/newOntology/Treated_By",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Treated_By",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class1",
+      "range": "Class2",
+      "pos": [
+        773.25,
+        490.92
+      ]
+    },
+    {
+      "id": "objectProperty2",
+      "iri": "http://visualdataweb.org/newOntology/Take_Medication",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Take_Medication",
+      "domain": "Class1",
+      "range": "Class3",
+      "pos": [
+        629.72,
+        285.25
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://visualdataweb.org/newOntology/Has_Test",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Has_Test",
+      "domain": "Class1",
+      "range": "Class5",
+      "pos": [
+        909.55,
+        323.79
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://visualdataweb.org/newOntology/Has_Disease",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Has_Disease",
+      "domain": "Class1",
+      "range": "Class4",
+      "pos": [
+        729.25,
+        183.9
+      ]
+    },
+    {
+      "id": "datatypeProperty6",
+      "iri": "http://visualdataweb.org/newOntology/Patient_name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Patient_name",
+      "domain": "Class1",
+      "range": "NodeId7",
+      "pos": [
+        692.92,
+        443.93
+      ]
+    },
+    {
+      "id": "datatypeProperty7",
+      "iri": "http://visualdataweb.org/newOntology/Has_Data",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Has_Data",
+      "domain": "Class5",
+      "range": "NodeId8",
+      "pos": [
+        1008.58,
+        187.11
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://visualdataweb.org/newOntology/contains",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "contains",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class5",
+      "range": "Class9",
+      "pos": [
+        1188.72,
+        331.6
+      ]
+    },
+    {
+      "id": "datatypeProperty9",
+      "iri": "http://visualdataweb.org/newOntology/Has_Name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Has_Name",
+      "domain": "Class4",
+      "range": "NodeId10",
+      "pos": [
+        583.82,
+        -36.82
+      ]
+    },
+    {
+      "id": "datatypeProperty10",
+      "iri": "http://visualdataweb.org/newOntology/Med_Name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Med_Name",
+      "domain": "Class3",
+      "range": "NodeId11",
+      "pos": [
+        377.86,
+        194.38
+      ]
+    },
+    {
+      "id": "datatypeProperty11",
+      "iri": "http://visualdataweb.org/newOntology/Med_Date",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Med_Date",
+      "domain": "Class3",
+      "range": "NodeId12",
+      "pos": [
+        379.53,
+        304.56
+      ]
+    },
+    {
+      "id": "datatypeProperty16",
+      "iri": "http://visualdataweb.org/newOntology/Doc_Name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Doc_Name",
+      "domain": "Class2",
+      "range": "NodeId16",
+      "pos": [
+        663.8,
+        704.76
+      ]
+    },
+    {
+      "id": "datatypeProperty17",
+      "iri": "http://visualdataweb.org/newOntology/Patient_ID",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Patient_ID",
+      "domain": "Class1",
+      "range": "NodeId17",
+      "pos": [
+        656.35,
+        373.63
+      ]
+    },
+    {
+      "id": "datatypeProperty18",
+      "iri": "http://visualdataweb.org/newOntology/Item_Name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Item_Name",
+      "domain": "Class9",
+      "range": "NodeId18",
+      "pos": [
+        1263.76,
+        464.71
+      ]
+    },
+    {
+      "id": "datatypeProperty19",
+      "iri": "http://visualdataweb.org/newOntology/Has_Value",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Has_Value",
+      "domain": "Class9",
+      "range": "NodeId19",
+      "pos": [
+        1280.55,
+        224.63
+      ]
+    }
+  ]
+}
