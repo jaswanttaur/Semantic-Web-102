@@ -1,0 +1,122 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 11 ###
+#  --------------------------- Property 0------------------------- 
+:friend_of rdf:type owl:DatatypeProperty ;
+           rdfs:label "friend of"@en; 
+           rdfs:domain :riya;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 1------------------------- 
+:lives_in rdf:type owl:DatatypeProperty ;
+          rdfs:label "lives in"@en; 
+          rdfs:domain :riya;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 2------------------------- 
+:situated_in rdf:type owl:DatatypeProperty ;
+             rdfs:label "situated in"@en; 
+             rdfs:domain :LDH_Book_store;
+             rdfs:range rdfs:Literal . 
+#  --------------------------- Property 3------------------------- 
+:undefined rdf:type owl:DatatypeProperty ;
+           rdfs:label "located in"@en; 
+           rdfs:domain :Model_Town;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 4------------------------- 
+:interested_in rdf:type owl:DatatypeProperty ;
+               rdfs:label "interested in"@en; 
+               rdfs:domain :riya;
+               rdfs:range rdfs:Literal . 
+#  --------------------------- Property 5------------------------- 
+:language rdf:type owl:DatatypeProperty ;
+          rdfs:label "language"@en; 
+          rdfs:domain :Book;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 6------------------------- 
+:subject rdf:type owl:DatatypeProperty ;
+         rdfs:label "subject"@en; 
+         rdfs:domain :Book;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 7------------------------- 
+:topic rdf:type owl:DatatypeProperty ;
+       rdfs:label "topic"@en; 
+       rdfs:domain :Maths_Book;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 8------------------------- 
+:publishing_date rdf:type owl:DatatypeProperty ;
+                 rdfs:label "publishing date"@en; 
+                 rdfs:domain :Algebra;
+                 rdfs:range rdfs:Literal . 
+#  --------------------------- Property 9------------------------- 
+:Author rdf:type owl:DatatypeProperty ;
+        rdfs:label "Author"@en; 
+        rdfs:domain :Algebra;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 10------------------------- 
+:live_in rdf:type owl:DatatypeProperty ;
+         rdfs:label "live in"@en; 
+         rdfs:domain :Meera;
+         rdfs:range rdfs:Literal . 
+###  Class Definitions (Number of Classes) 11 ###
+#  --------------------------- Class  0------------------------- 
+:riya rdf:type owl:Class; 
+      rdfs:subClassOf :Meera ;
+      rdfs:subClassOf :Ludhiana ;
+      rdfs:subClassOf :Book ;
+      rdfs:label "Riya"@en . 
+#  --------------------------- Class  1------------------------- 
+:LDH_Book_store rdf:type owl:Class; 
+                rdfs:subClassOf :Model_Town ;
+                rdfs:label "LDH Book store"@en . 
+#  --------------------------- Class  2------------------------- 
+:Model_Town rdf:type owl:Class; 
+            rdfs:subClassOf :Ludhiana ;
+            rdfs:label "Model Town"@en . 
+#  --------------------------- Class  3------------------------- 
+:Meera rdf:type owl:Class; 
+       rdfs:subClassOf :Ludhiana ;
+       rdfs:label "Meera"@en . 
+#  --------------------------- Class  4------------------------- 
+:Ludhiana rdf:type owl:Class; 
+          rdfs:label "Ludhiana"@en . 
+#  --------------------------- Class  5------------------------- 
+:Book rdf:type owl:Class; 
+      rdfs:subClassOf :English ;
+      rdfs:subClassOf :Maths_Book ;
+      rdfs:label "Book"@en . 
+#  --------------------------- Class  6------------------------- 
+:English rdf:type owl:Class; 
+         rdfs:label "English"@en . 
+#  --------------------------- Class  7------------------------- 
+:Maths_Book rdf:type owl:Class; 
+            rdfs:subClassOf :Algebra ;
+            rdfs:label "Maths "@en . 
+#  --------------------------- Class  8------------------------- 
+:Algebra rdf:type owl:Class; 
+         rdfs:subClassOf :13_June_2013 ;
+         rdfs:subClassOf :Dr._G.S._Sandhu ;
+         rdfs:label "Algebra"@en . 
+#  --------------------------- Class  9------------------------- 
+:13_June_2013 rdf:type owl:Class; 
+              rdfs:label "13 June 2013"@en . 
+#  --------------------------- Class  10------------------------- 
+:Dr._G.S._Sandhu rdf:type owl:Class; 
+                 rdfs:label "Dr. G.S. Sandhu"@en . 

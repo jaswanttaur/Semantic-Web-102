@@ -1,0 +1,47 @@
+.container{
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.container .header{
+	width: 1170px;
+	height: 200px;
+	background-color: #ff0000;
+}
+.container .contentrow{
+	width: 1170px;
+	height: auto;
+}
+.container .contentrow .content1{
+	width: 390px;
+	height: 200;
+	background-color: #000;
+	float: left;
+}
+.container .contentrow .content2{
+	width: 390px;
+	height: 200;
+	background-color: #eee;
+	float: left;
+}
+.container .contentrow .content3{
+	width: 390px;
+	height: 200;
+	background-color: #e0e0e0;
+	float: left;
+}
+.container .contentrow1{
+	width: 1170px;
+	height: auto;
+}
+.container .contentrow1 .content4{
+	width: 780px;
+	height: 200;
+	background-color: #808080;
+}
+.container .contentrow1 .content5{
+	width: 390px;
+	height: 200;
+	background-color: #eee;
+	float: left;
+}
