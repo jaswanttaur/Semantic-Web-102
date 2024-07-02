@@ -1,0 +1,31 @@
+[
+    {
+        "Name":"Ram",
+        "Roll No":1,
+        "Age":10,
+        "Interest":"Music",
+        "Gender":"Male"
+    },
+    {
+        "Name":"Sham",
+        "Roll No": 2,
+        "Age": 11,
+        "Interest":"Dance",
+        "Gender":"Male"
+    },
+    {
+        "Name":"Sita",
+        "Roll No":3,
+        "Age":10,
+        "Interest":"Gardening",
+        "Gender":"Female"
+    },
+    {
+        "Name":"Gita",
+        "Roll No": 4,
+        "Age": 11,
+        "Interest":"Sketching",
+        "Gender":"Female"
+    }
+
+]

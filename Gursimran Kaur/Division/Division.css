@@ -1,0 +1,122 @@
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .header {
+    width: 1170px;
+    height: 150px;
+    background-color:aquamarine;
+}
+.container .contentrow{
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow .content1 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgb(113, 222, 138);
+    float: left;
+}
+.container .contentrow .content2 {
+    width: 292.5px;
+    height: 100px;
+    background-color: rgb(51, 118, 175);
+    float: left;
+}
+.container .contentrow .content3 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgb(113, 222, 138);
+    float: left;
+}
+.container .contentrow .content4 {
+    width: 292.5px;
+    height: 100px;
+    background-color:blue;
+    float: left;
+}
+.container .contentrow1 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow1 .content5 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgb(232, 163, 209);
+    float: left;
+}
+.container .contentrow1 .content6 {
+    width: 292.5px;
+    height: 100px;
+    background-color: rgb(41, 172, 87);
+    float: left;
+}
+
+.container .contentrow1 .content7 {
+    width: 585px;
+    height: 100px;
+    background-color:rgb(68, 153, 166);
+    float: left;
+}
+.container .contentrow2 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow2 .content8 {
+    width: 585px;
+    height: 100px;
+    background-color:rgb(144, 45, 104);
+    float: left;
+}
+.container .contentrow2 .content9 {
+    width: 292.5px;
+    height: 100px;
+    background-color: rgb(139, 67, 232);
+    float: left;
+}
+
+.container .contentrow2 .content10 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgb(29, 176, 42);
+    float: left;
+}
+.container .contentrow3 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow3 .content11 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgba(206, 225, 32, 0.612);
+    float: left;
+}
+.container .contentrow3 .content12 {
+    width: 585px;
+    height: 100px;
+    background-color: rgb(185, 106, 112);
+    float: left;
+}
+
+.container .contentrow3 .content13 {
+    width: 292.5px;
+    height: 100px;
+    background-color:rgb(99, 92, 199);
+    float: left;
+}
+.container .contentrow4 {
+    width: 1170px;
+    height: 100px;
+    background-color: brown;
+
+}
+
+
+
+
+

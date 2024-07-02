@@ -1,0 +1,961 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2003/01/geo/wgs84_pos",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/2000/10/swap/pim/contact",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot": "http://xmlns.com/wot/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "undefined": "Friend of a Friend (FOAF) vocabulary"
+    },
+    "iri": "http://xmlns.com/foaf/0.1/",
+    "description": {
+      "undefined": "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language."
+    },
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Friend of a Friend (FOAF) vocabulary",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.71",
+      "translation": [
+        2141.77,
+        -51.63
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "33",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "29",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "Class51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId77",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId78",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId80",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "Class81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class95",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId105",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId106",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId108",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId110",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId111",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId114",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId115",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId116",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId117",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId118",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId119",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId122",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId123",
+      "type": "rdfs:Literal"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1800.56,
+        1372.04
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1408.06,
+        1935.97
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        500.87,
+        -1037.32
+      ]
+    },
+    {
+      "id": "Class51",
+      "iri": "http://xmlns.com/foaf/0.1/Ram",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Book",
+      "pos": [
+        -1449.72,
+        521.52
+      ]
+    },
+    {
+      "id": "Class61",
+      "iri": "http://xmlns.com/foaf/0.1/psychology_Book",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "psychology Book",
+      "pos": [
+        -1567.39,
+        789.61
+      ]
+    },
+    {
+      "id": "Class65",
+      "iri": "http://xmlns.com/foaf/0.1/Essential_of_psychology",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Essential of psychology",
+      "pos": [
+        -1807.27,
+        1033.86
+      ]
+    },
+    {
+      "id": "NodeId77",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1418.83,
+        1142.06
+      ]
+    },
+    {
+      "id": "NodeId78",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1399.29,
+        1025.21
+      ]
+    },
+    {
+      "id": "NodeId80",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1435.01,
+        926.18
+      ]
+    },
+    {
+      "id": "Class81",
+      "iri": "http://xmlns.com/foaf/0.1/Abc_book_shop",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Abc book shop",
+      "pos": [
+        -1124.72,
+        390.54
+      ]
+    },
+    {
+      "id": "Class95",
+      "iri": "http://xmlns.com/foaf/0.1/Class95",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Ram",
+      "pos": [
+        -1836.26,
+        378.41
+      ]
+    },
+    {
+      "id": "Class96",
+      "iri": "http://xmlns.com/foaf/0.1/Ludhiana",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Ludhiana",
+      "pos": [
+        -1858.01,
+        723.39
+      ]
+    },
+    {
+      "id": "Class97",
+      "iri": "http://xmlns.com/foaf/0.1/Model_town",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Model town",
+      "pos": [
+        -1453.47,
+        272.82
+      ]
+    },
+    {
+      "id": "Class102",
+      "iri": "http://xmlns.com/foaf/0.1/Mathematic_book",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Mathematic book",
+      "pos": [
+        -1313.54,
+        796.45
+      ]
+    },
+    {
+      "id": "Class104",
+      "iri": "http://xmlns.com/foaf/0.1/Specturm_booj",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Specturm booj",
+      "pos": [
+        -1266.43,
+        1071.03
+      ]
+    },
+    {
+      "id": "NodeId105",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -968.13,
+        847.84
+      ]
+    },
+    {
+      "id": "NodeId106",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -863.5,
+        1001.59
+      ]
+    },
+    {
+      "id": "NodeId108",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -894.18,
+        1139.39
+      ]
+    },
+    {
+      "id": "NodeId110",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -767.57,
+        325.64
+      ]
+    },
+    {
+      "id": "NodeId111",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -787.58,
+        475.68
+      ]
+    },
+    {
+      "id": "NodeId114",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -913.72,
+        587.81
+      ]
+    },
+    {
+      "id": "NodeId115",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1069.83,
+        649.51
+      ]
+    },
+    {
+      "id": "NodeId116",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -2008.01,
+        873.39
+      ]
+    },
+    {
+      "id": "NodeId117",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -2045.92,
+        543.64
+      ]
+    },
+    {
+      "id": "NodeId118",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -2106.19,
+        434
+      ]
+    },
+    {
+      "id": "NodeId119",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -2113.35,
+        316.36
+      ]
+    },
+    {
+      "id": "NodeId122",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -2017.99,
+        218.68
+      ]
+    },
+    {
+      "id": "NodeId123",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -860.91,
+        177.5
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty80",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty84",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty87",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty88",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty89",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty90",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty98",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty99",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty100",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty102",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty105",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty107",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty108",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty109",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty111",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty112",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty113",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty114",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty115",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty116",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty117",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty118",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty119",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty121",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty122",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty80",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty80",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class51",
+      "range": "Class61",
+      "pos": [
+        -1508.55,
+        655.56
+      ]
+    },
+    {
+      "id": "objectProperty84",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty84",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class61",
+      "range": "Class65",
+      "pos": [
+        -1687.33,
+        911.74
+      ]
+    },
+    {
+      "id": "datatypeProperty87",
+      "iri": "http://xmlns.com/foaf/0.1/author",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "author",
+      "domain": "Class65",
+      "range": "NodeId77",
+      "pos": [
+        -1602.22,
+        1090.98
+      ]
+    },
+    {
+      "id": "datatypeProperty88",
+      "iri": "http://xmlns.com/foaf/0.1/language",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "language",
+      "domain": "Class65",
+      "range": "NodeId78",
+      "pos": [
+        -1591.53,
+        1029.29
+      ]
+    },
+    {
+      "id": "datatypeProperty89",
+      "iri": "http://xmlns.com/foaf/0.1/date_of_publication",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "date of publication",
+      "domain": "Class65",
+      "range": "NodeId80",
+      "pos": [
+        -1610.37,
+        976.91
+      ]
+    },
+    {
+      "id": "objectProperty90",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty90",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class51",
+      "range": "Class81",
+      "pos": [
+        -1287.22,
+        456.03
+      ]
+    },
+    {
+      "id": "objectProperty98",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty98",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class95",
+      "range": "Class51",
+      "pos": [
+        -1642.99,
+        449.96
+      ]
+    },
+    {
+      "id": "objectProperty99",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty99",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class95",
+      "range": "Class96",
+      "pos": [
+        -1847.13,
+        550.9
+      ]
+    },
+    {
+      "id": "objectProperty100",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty100",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class81",
+      "range": "Class97",
+      "pos": [
+        -1289.1,
+        331.68
+      ]
+    },
+    {
+      "id": "objectProperty102",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty102",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class97",
+      "range": "Class96",
+      "pos": [
+        -1655.74,
+        498.11
+      ]
+    },
+    {
+      "id": "objectProperty105",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty105",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class51",
+      "range": "Class102",
+      "pos": [
+        -1381.63,
+        658.98
+      ]
+    },
+    {
+      "id": "objectProperty107",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty107",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class102",
+      "range": "Class104",
+      "pos": [
+        -1289.99,
+        933.74
+      ]
+    },
+    {
+      "id": "datatypeProperty108",
+      "iri": "http://xmlns.com/foaf/0.1/Date_of_Publication",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Date of Publication",
+      "domain": "Class104",
+      "range": "NodeId105",
+      "pos": [
+        -1103.95,
+        949.46
+      ]
+    },
+    {
+      "id": "datatypeProperty109",
+      "iri": "http://xmlns.com/foaf/0.1/Langguage",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Language",
+      "domain": "Class104",
+      "range": "NodeId106",
+      "pos": [
+        -1053.58,
+        1034.35
+      ]
+    },
+    {
+      "id": "datatypeProperty111",
+      "iri": "http://xmlns.com/foaf/0.1/Publisher",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Publisher",
+      "domain": "Class104",
+      "range": "NodeId108",
+      "pos": [
+        -1068.97,
+        1107.29
+      ]
+    },
+    {
+      "id": "datatypeProperty112",
+      "iri": "http://xmlns.com/foaf/0.1/shopkeeper_Name",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "shopkeeper Name",
+      "domain": "Class81",
+      "range": "NodeId110",
+      "pos": [
+        -934.8,
+        356.03
+      ]
+    },
+    {
+      "id": "datatypeProperty113",
+      "iri": "http://xmlns.com/foaf/0.1/Gender",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Gender",
+      "domain": "Class81",
+      "range": "NodeId111",
+      "pos": [
+        -945.16,
+        435.89
+      ]
+    },
+    {
+      "id": "datatypeProperty114",
+      "iri": "http://xmlns.com/foaf/0.1/Age",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Age",
+      "domain": "Class81",
+      "range": "NodeId114",
+      "pos": [
+        -1006.31,
+        501.25
+      ]
+    },
+    {
+      "id": "datatypeProperty115",
+      "iri": "http://xmlns.com/foaf/0.1/Lives",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Lives",
+      "domain": "Class81",
+      "range": "NodeId115",
+      "pos": [
+        -1093.16,
+        539.48
+      ]
+    },
+    {
+      "id": "datatypeProperty116",
+      "iri": "http://xmlns.com/foaf/0.1/Situated_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Situated in",
+      "domain": "Class96",
+      "range": "NodeId116",
+      "pos": [
+        -1945.69,
+        811.07
+      ]
+    },
+    {
+      "id": "datatypeProperty117",
+      "iri": "http://xmlns.com/foaf/0.1/age",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "age",
+      "domain": "Class95",
+      "range": "NodeId117",
+      "pos": [
+        -1954.38,
+        471.5
+      ]
+    },
+    {
+      "id": "datatypeProperty118",
+      "iri": "http://xmlns.com/foaf/0.1/sex",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "sex",
+      "domain": "Class95",
+      "range": "NodeId118",
+      "pos": [
+        -1982.46,
+        408.52
+      ]
+    },
+    {
+      "id": "datatypeProperty119",
+      "iri": "http://xmlns.com/foaf/0.1/studies_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "studies in",
+      "domain": "Class95",
+      "range": "NodeId119",
+      "pos": [
+        -1985.95,
+        344.89
+      ]
+    },
+    {
+      "id": "datatypeProperty121",
+      "iri": "http://xmlns.com/foaf/0.1/full_Name",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "full Name",
+      "domain": "Class95",
+      "range": "NodeId122",
+      "pos": [
+        -1940.21,
+        287.04
+      ]
+    },
+    {
+      "id": "datatypeProperty122",
+      "iri": "http://xmlns.com/foaf/0.1/specialized_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "specialized in",
+      "domain": "Class81",
+      "range": "NodeId123",
+      "pos": [
+        -979.56,
+        273.31
+      ]
+    }
+  ]
+}

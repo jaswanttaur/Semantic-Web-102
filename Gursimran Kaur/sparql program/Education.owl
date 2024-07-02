@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#"
+     xml:base="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:school="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school">
+        <rdfs:comment xml:lang="en">This is an ontology about school</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#admits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#admits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <rdfs:comment xml:lang="en">School Admits Students</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#employs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#employs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher"/>
+        <rdfs:comment xml:lang="en">School Employs Teacher</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#learns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#learns">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#subject"/>
+        <rdfs:comment xml:lang="en">Students learn subjects</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <rdfs:comment xml:lang="en">Teacher teaches the subject</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#JoinedOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#JoinedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Student joined on which date</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#StaffID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#StaffID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">This is the identity of the staff</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#StudentID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#StudentID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">This is the identity of the student</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teach -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teach">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Teacher teaches which subject</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Administrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Administrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Junior_student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Junior_student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Mangement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Mangement">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Supporting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Private -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Private">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Supporting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Supporting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#cleaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#cleaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#non-teaching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school">
+        <rdfs:comment xml:lang="en">This ontology describes about the school</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#senior_student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#senior_student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#staff"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Akriti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Akriti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher"/>
+        <teaches rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Ricky"/>
+        <StaffID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T1003</StaffID>
+        <teach rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</teach>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#International_school -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#International_school">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#school"/>
+        <admits rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Ricky"/>
+        <employs rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Akriti"/>
+        <employs rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Tony"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Ricky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Ricky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#student"/>
+        <JoinedOn rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T09:00:00</JoinedOn>
+        <StudentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1001</StudentID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Tony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Tony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#teacher"/>
+        <teaches rdf:resource="http://www.semanticweb.org/amarjeet/ontologies/2024/5/school#Ricky"/>
+        <StaffID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T1001</StaffID>
+        <teach rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</teach>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
