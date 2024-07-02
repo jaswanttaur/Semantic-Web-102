@@ -1,0 +1,9 @@
+#RDF USING TURTLE REPRESENTATION
+@prefix ab:<<http://learningcode.com/ns/adressbook#>.
+@prefix rdf<<http:/www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+ab:komal ab:HomeTel "(91)4536789871".
+ab:komal ab:Mother  "Jiya".
+
+ab:Jiya  ab:HomeTel  "(91)5637829005"
+ab:Jiya  ab:friend   "Riya".
