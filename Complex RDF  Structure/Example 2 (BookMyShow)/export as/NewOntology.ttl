@@ -1,0 +1,257 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 35 ###
+#  --------------------------- Property 0------------------------- 
+:detects_location rdf:type owl:ObjectProperty ;
+                  rdfs:label "detects location"@en; 
+                  rdfs:domain :Bookmyshow;
+                  rdfs:range :Location . 
+#  --------------------------- Property 1------------------------- 
+:location_has rdf:type owl:ObjectProperty ;
+              rdfs:label "location has"@en; 
+              rdfs:domain :Location;
+              rdfs:range :Streams . 
+#  --------------------------- Property 2------------------------- 
+:location_has rdf:type owl:ObjectProperty ;
+              rdfs:label "location has"@en; 
+              rdfs:domain :Location;
+              rdfs:range :Movies . 
+#  --------------------------- Property 3------------------------- 
+:location_has rdf:type owl:ObjectProperty ;
+              rdfs:label "location has"@en; 
+              rdfs:domain :Location;
+              rdfs:range :Events . 
+#  --------------------------- Property 4------------------------- 
+:location_has rdf:type owl:ObjectProperty ;
+              rdfs:label "location has"@en; 
+              rdfs:domain :Location;
+              rdfs:range :Sports . 
+#  --------------------------- Property 5------------------------- 
+:Movie_1 rdf:type owl:DatatypeProperty ;
+         rdfs:label "Movie 1"@en; 
+         rdfs:domain :Movies;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 6------------------------- 
+:Movie_3 rdf:type owl:DatatypeProperty ;
+         rdfs:label "Movie 3"@en; 
+         rdfs:domain :Movies;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 7------------------------- 
+:Movie_2 rdf:type owl:DatatypeProperty ;
+         rdfs:label "Movie 2"@en; 
+         rdfs:domain :Movies;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 8------------------------- 
+:shows rdf:type owl:DatatypeProperty ;
+       rdfs:label "shows"@en; 
+       rdfs:domain :Streams;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 9------------------------- 
+:movies rdf:type owl:DatatypeProperty ;
+        rdfs:label "movies"@en; 
+        rdfs:domain :Streams;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 10------------------------- 
+:standup_shows rdf:type owl:DatatypeProperty ;
+               rdfs:label "standup shows"@en; 
+               rdfs:domain :Events;
+               rdfs:range rdfs:Literal . 
+#  --------------------------- Property 11------------------------- 
+:Concerts rdf:type owl:DatatypeProperty ;
+          rdfs:label "Concerts"@en; 
+          rdfs:domain :Events;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 12------------------------- 
+:workshops rdf:type owl:DatatypeProperty ;
+           rdfs:label "workshops"@en; 
+           rdfs:domain :Events;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 13------------------------- 
+:matches rdf:type owl:DatatypeProperty ;
+         rdfs:label "matches"@en; 
+         rdfs:domain :Sports;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 14------------------------- 
+:running rdf:type owl:DatatypeProperty ;
+         rdfs:label "running"@en; 
+         rdfs:domain :Sports;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 15------------------------- 
+:classic rdf:type owl:DatatypeProperty ;
+         rdfs:label "classic"@en; 
+         rdfs:domain :Seat_Selection;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 16------------------------- 
+:prime rdf:type owl:DatatypeProperty ;
+       rdfs:label "recliner"@en; 
+       rdfs:domain :Seat_Selection;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 17------------------------- 
+:hin|eng|pun rdf:type owl:DatatypeProperty ;
+             rdfs:label "hin|eng|pun"@en; 
+             rdfs:domain :Choose_language_&_Format;
+             rdfs:range rdfs:Literal . 
+#  --------------------------- Property 18------------------------- 
+:2D|3D rdf:type owl:DatatypeProperty ;
+       rdfs:label "2D|3D"@en; 
+       rdfs:domain :Choose_language_&_Format;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 19------------------------- 
+:make_payment rdf:type owl:ObjectProperty ;
+              rdfs:label "make payment"@en; 
+              rdfs:domain :Book_Tickets;
+              rdfs:range :Payment . 
+#  --------------------------- Property 20------------------------- 
+:make_payment rdf:type owl:ObjectProperty ;
+              rdfs:label "make payment"@en; 
+              rdfs:domain :rent;
+              rdfs:range :Payment . 
+#  --------------------------- Property 21------------------------- 
+:make_payment rdf:type owl:ObjectProperty ;
+              rdfs:label "make payment"@en; 
+              rdfs:domain :Class40;
+              rdfs:range :Payment . 
+#  --------------------------- Property 22------------------------- 
+:make_payment rdf:type owl:ObjectProperty ;
+              rdfs:label "make payment"@en; 
+              rdfs:domain :Book_Seats;
+              rdfs:range :Payment . 
+#  --------------------------- Property 23------------------------- 
+:cash rdf:type owl:DatatypeProperty ;
+      rdfs:label "cash"@en; 
+      rdfs:domain :Payment;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 24------------------------- 
+:UPI rdf:type owl:DatatypeProperty ;
+     rdfs:label "UPI"@en; 
+     rdfs:domain :Payment;
+     rdfs:range rdfs:Literal . 
+#  --------------------------- Property 25------------------------- 
+:card rdf:type owl:DatatypeProperty ;
+      rdfs:label "card"@en; 
+      rdfs:domain :Payment;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 26------------------------- 
+:netbanking rdf:type owl:DatatypeProperty ;
+            rdfs:label "netbanking"@en; 
+            rdfs:domain :Payment;
+            rdfs:range rdfs:Literal . 
+#  --------------------------- Property 27------------------------- 
+:completion_of_procedure rdf:type owl:ObjectProperty ;
+                         rdfs:label "after payment"@en; 
+                         rdfs:domain :Payment;
+                         rdfs:range :Tickets . 
+#  --------------------------- Property 28------------------------- 
+:uses rdf:type owl:ObjectProperty ;
+      rdfs:label "uses"@en; 
+      rdfs:domain :User;
+      rdfs:range :Bookmyshow . 
+#  --------------------------- Property 29------------------------- 
+:submit_details rdf:type owl:ObjectProperty ;
+                rdfs:label "submit details"@en; 
+                rdfs:domain :Login_details;
+                rdfs:range :Bookmyshow . 
+#  --------------------------- Property 30------------------------- 
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Login_details;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 31------------------------- 
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:label "email"@en; 
+       rdfs:domain :Login_details;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 32------------------------- 
+:phone_no. rdf:type owl:DatatypeProperty ;
+           rdfs:label "phone no."@en; 
+           rdfs:domain :Login_details;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 33------------------------- 
+:requirements rdf:type owl:ObjectProperty ;
+              rdfs:label "requirements"@en; 
+              rdfs:domain :Bookmyshow;
+              rdfs:range :Login_details . 
+#  --------------------------- Property 34------------------------- 
+:fills_requirements rdf:type owl:ObjectProperty ;
+                    rdfs:label "fills requirements"@en; 
+                    rdfs:domain :User;
+                    rdfs:range :Login_details . 
+###  Class Definitions (Number of Classes) 18 ###
+#  --------------------------- Class  0------------------------- 
+:Bookmyshow rdf:type owl:Class; 
+            rdfs:label "Bookmyshow"@en . 
+#  --------------------------- Class  1------------------------- 
+:Location rdf:type owl:Class; 
+          rdfs:label "Location"@en . 
+#  --------------------------- Class  2------------------------- 
+:Movies rdf:type owl:Class; 
+        rdfs:subClassOf :Book_Tickets ;
+        rdfs:label "Movies"@en . 
+#  --------------------------- Class  3------------------------- 
+:Streams rdf:type owl:Class; 
+         rdfs:subClassOf :rent ;
+         rdfs:label "Streams"@en . 
+#  --------------------------- Class  4------------------------- 
+:Events rdf:type owl:Class; 
+        rdfs:subClassOf :Class40 ;
+        rdfs:label "Events"@en . 
+#  --------------------------- Class  5------------------------- 
+:Sports rdf:type owl:Class; 
+        rdfs:subClassOf :Book_Seats ;
+        rdfs:label "Sports"@en . 
+#  --------------------------- Class  6------------------------- 
+:Book_Tickets rdf:type owl:Class; 
+              rdfs:subClassOf :Theater ;
+              rdfs:subClassOf :Showtime ;
+              rdfs:subClassOf :Choose_language_&_Format ;
+              rdfs:subClassOf :Seat_Selection ;
+              rdfs:label "Book Tickets"@en . 
+#  --------------------------- Class  7------------------------- 
+:Theater rdf:type owl:Class; 
+         rdfs:label "Theater"@en . 
+#  --------------------------- Class  8------------------------- 
+:Showtime rdf:type owl:Class; 
+          rdfs:label "Showtime"@en . 
+#  --------------------------- Class  9------------------------- 
+:Choose_language_&_Format rdf:type owl:Class; 
+                          rdfs:label "Language & Format"@en . 
+#  --------------------------- Class  10------------------------- 
+:Seat_Selection rdf:type owl:Class; 
+                rdfs:label "Seat Selection"@en . 
+#  --------------------------- Class  11------------------------- 
+:rent rdf:type owl:Class; 
+      rdfs:label "Rent/Buy"@en . 
+#  --------------------------- Class  12------------------------- 
+:Class40 rdf:type owl:Class; 
+         rdfs:label "Book Tickets"@en . 
+#  --------------------------- Class  13------------------------- 
+:Book_Seats rdf:type owl:Class; 
+            rdfs:label "Book Seats"@en . 
+#  --------------------------- Class  14------------------------- 
+:Payment rdf:type owl:Class; 
+         rdfs:label "Payment"@en . 
+#  --------------------------- Class  15------------------------- 
+:Tickets rdf:type owl:Class; 
+         rdfs:label "Ticket"@en . 
+#  --------------------------- Class  16------------------------- 
+:User rdf:type owl:Class; 
+      rdfs:label "User"@en . 
+#  --------------------------- Class  17------------------------- 
+:Login_details rdf:type owl:Class; 
+               rdfs:label "Login details"@en . 
