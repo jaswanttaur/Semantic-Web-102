@@ -1,0 +1,58 @@
+.container{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+}
+.container .header{
+    width: 1400;
+    height: 300px;
+    background-color: yellow;
+}
+.container .header h1{
+    font-family: Monoton;
+}
+h5{
+    font-style: oblique;
+    font-size: .66cm;
+}
+h2{
+    font-style:italic;
+    font-size: .6cm;
+    margin-left: 4cm;
+}
+h3{
+    font-style: tahoma;
+    margin-top: .4cm;
+    margin-left: 4cm;
+    font-size: 1.2cm;
+    
+}
+h4{
+    margin-left: 4cm;
+}
+h1{
+    font-family: Monoton;
+    margin-left: 5cm;
+    font-size: 1cm;
+}
+h5{
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+}
+image{
+    float: left;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+h5{
+    font-size: 24px;
+    font-style: monoton;
+}
+h6{
+    font-size: 29px;
+    font-style: italic;
+}
