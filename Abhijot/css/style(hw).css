@@ -1,0 +1,115 @@
+.container{
+  width: 1200px;  
+  height: auto;
+  margin: 0 auto;
+}
+.container .header{
+  width: 1200px;
+  height: 200px;
+  background-color: rgb(255, 119, 0);
+}
+.container .contentrow1{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow1 .content1{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(32, 32, 32);
+  float: left;
+}
+.container .contentrow1 .content2{
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  font-size: large;
+  float: left;
+}
+.container .contentrow1 .content3{
+  width: 300px;
+  height: 200px;
+  background-color: wheat;
+  float: left;
+}
+.container .contentrow1 .content4{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(218, 169, 77);
+  float: left;
+}
+.container .contentrow2{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow2 .content5{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(12, 183, 129);
+  float: left;
+}
+.container .contentrow2 .content6{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(99, 250, 202);
+  float: left;
+}
+.container .contentrow2 .content7{
+  width: 600px;
+  height: 200px;
+  background-color: #011F26;
+  float: left;
+}
+.container .contentrow3{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow3 .content8{
+  width: 600px;
+  height: 200px;
+  background-color: #F2668B;
+  float: left;
+}
+.container .contentrow3 .content9{
+  width: 300px;
+  height: 200px;
+  background-color: #025E73;
+  float: left;
+}
+.container .contentrow3 .content10{
+  width: 300px;
+  height: 200px;
+  background-color: #03A688;
+  float: left;
+}
+.container .contentrow4{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow4 .content11{
+  width: 300px;
+  height: 200px;
+  background-color: #347355;
+  float: left;
+}
+.container .contentrow4 .content12{
+  width: 600px;
+  height: 200px;
+  background-color: #60BF81;
+  float: left;
+}
+.container .contentrow4 .content13{
+  width: 300px;
+  height: 200px;
+  background-color: #93D94E;
+  float: left;
+}
+.container .contentrow5{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow5 .content14{
+  width: 1200px;
+  height: 200px;
+  background-color: #934ed9;
+  float: left;
+}
