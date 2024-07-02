@@ -1,0 +1,35 @@
+.container{
+  margin: auto;
+  height: 400px;
+  width: 1170px;
+  border: 0.5px;
+}
+
+.container .header{
+  width: 1170px;
+  height: 200px;
+  background-color: red;
+}
+
+.container .container_row{
+  height: auto;
+  width: 1170px;
+}
+.container .container_row .content1{
+  width: 400px;
+  height: 200px;
+  background-color: gray;
+  float: left;
+}
+.container .container_row .content2{
+  width: 500px;
+  height: 200px;
+  background-color: lightblue;
+  float: left;
+}
+.container .container_row .content3{
+  width: 270px;
+  height: 200px;
+  background-color: bisque;
+  float: left;
+}
