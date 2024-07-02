@@ -1,0 +1,28 @@
+@prefix : <http://stardog.com/tutorial/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix bibo: <http://purl.org/ontology/bibo/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:Book1 a bibo:Book;
+    dc:title "Hamlet"^^xsd:string;
+    dc:publisher "Springer"^^xsd:string;
+    dc:creator :WilliamShakespeare;
+    dc:date "1603-03-22"^^xsd:date;
+    bibo:reviewedBy :John;
+    dc:language :English.
+
+:John a foaf:Person.
+:WilliamShakespeare a foaf:Person, bibo:Author;
+    bibo:plays 39;
+    bibo:sonnets 154.
+
+:Book2 a bibo:Book;
+    dc:title "The merchant of Venice"^^xsd:string;
+    dc:publisher "Marx"^^xsd:string;
+    dc:creator :WilliamShakespeare;
+    dc:date "1603-06-22"^^xsd:date;
+    bibo:reviewedBy :Carl;
+    dc:language :English.
+
+:Carl a foaf:Person.
