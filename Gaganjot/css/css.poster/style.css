@@ -1,0 +1,128 @@
+.container {
+  width:1170px;
+  height:auto;
+  margin:0 auto;
+}
+.container .header {
+  width:1170px;
+  height:200px;
+  background-color:#3090C7;
+}
+.container .contentrow {
+  width:1170px;
+  height:auto;
+
+}
+.container .contentrow .content1 {
+  width:390px;
+  height:200px;
+  background-color:#C36241;
+  float:left;
+}
+.container .contentrow .content2 {
+  width:390px;
+  height:200px;
+  background-color: #735acd;
+  float:left;
+}
+.container .contentrow .content3 {
+  width:390px;
+  height:200px;
+  background-color: #c15c70;
+  float:left;
+}
+.container .contentrow .content4 {
+  width:390px;
+  height:200px;
+  background-color: #621424;
+  float:left;
+}
+.container .contentrows {
+  width:1170px;
+  height:auto;
+
+}
+
+.container .contentrows .content5 {
+  width:390px;
+  height:200px;
+  background-color: #167456;
+  float:left;
+}
+.container .contentrows .content6 {
+  width: 390px;
+  height:200px;
+  background-color: #231674;
+  float: left;
+  
+}
+.container .contentrows .content7 {
+  width:500px;
+  height:200px;
+  background-color: #231674;
+  float: left;
+  
+}
+.container .contentrow1 {
+  width:1170px;
+  height:auto;
+  
+}
+.container .contentrow1 .content8 {
+  width:1170px;
+  height:auto;
+  background-color:#000000;
+  float:left;
+}
+
+.container .contentrow1 .content9 {
+  width:1170px;
+  height:auto;
+  background-color: #14622f;
+  float:left;
+}
+
+.container .contentrow1 .content10 {
+  width:1170px;
+  height:auto;
+  background-color: #621424;
+  float:left;
+}
+.container .contentrow2 {
+  width:1170px;
+  height:auto;
+  
+}
+.container .contentrow2 .content11 {
+  width:1170px;
+  height:auto;
+  background-color: #621424;
+  float:left;
+}
+.container .contentrow2 .content12 {
+  width:1170px;
+  height:auto;
+  background-color: #621424;
+  float:left;
+}
+.container .contentrow2 .content13 {
+  width:1170px;
+  height:auto;
+  background-color: #621424;
+  float:left;
+}
+.container .contentrow3 {
+  width:1170px;
+  height:auto;
+  
+}
+.container .contentrow3 .content14 {
+  width:1170px;
+  height:auto;
+  background-color: #621424;
+  float:left;
+}
+
+
+
+

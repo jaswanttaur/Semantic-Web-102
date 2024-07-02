@@ -1,0 +1,324 @@
+.container{
+          width: 1200px;  
+          height: auto;
+          margin: 0 auto;
+        }
+        .container .top{
+          width: 1200px;
+          height: 600px;
+          background-color: rgb(235, 245, 44);
+        }
+        .container .top .header{
+          width: 1200px;
+          height: 70px;
+        }
+        .container .top .header .logo{
+          width: 200px;
+          height: 70px;
+          font-size: xx-large;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: 700;
+          float: left;
+          margin-top: 20px;
+          margin-left: 5px;
+          padding-bottom: 0;
+          margin-bottom: 100px;
+        }
+        .container .top .header .tele{
+          width: 200px;
+          height: 50px;
+          font-style: oblique;
+          font-weight: bold;
+          float: right;
+          font-size: large;
+          margin-top: 20px;
+          margin-right: 0;
+          padding-right: 0;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          text-align: center;
+        }
+        /* .container .top .header .tele .pic{
+         margin-left: 50px;
+          width: 50px;
+          float: top;
+        } */
+        
+        .container .top .navrow{
+          font-size: x-large;
+          width: 650px;
+          height: 10px;
+          float: right;
+          margin-top: 20px;
+          padding-top: 0;
+          margin-top: 0;
+          text-align: right;
+          margin-right: 10px;
+          padding-right: 0;
+          word-spacing: 5px;
+        }
+        .container .top .writeup{
+          width: 1200px;
+          height: 100px;
+        }
+        .container .top .writeup .leftie{
+          margin-top: 80px;
+          text-align: left;
+          margin-left: 180px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        .container .top .writeup .leftie h1{
+          margin-top: 10px;
+          text-align: left;
+          margin-left: 10px;
+          font-size: xx-large;
+          font-family: cursive; 
+        }
+        .container .top .writeup .leftie h2{
+          margin-top: 20px;
+          text-align: left;
+          margin-left: 50px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        .container .top .writeup .leftie h4{
+          margin-top: 20px;
+          text-align: left;
+          margin-left: 0px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        .container .top .writeup .leftie button{
+          border-radius: 50px;
+          width: 150px;
+          height: 50px;
+          cursor: pointer;
+          font-weight: 700;
+          font-size: large;
+          text-align: center;
+          margin-left: 50px;
+          background-color: rgb(235, 245, 44);
+        }
+        .container .top .writeup .leftie button:hover
+        {
+          background-color: rgb(197, 210, 50);
+        }
+        .container .top .writeup .leftie button:active
+        {
+          background-color: rgb(54, 57, 21);
+          color: aliceblue;
+        }
+        .container .top .writeup .food-img img{
+          margin-left: 580px;
+          border-radius: 400px;
+          width: 400px;
+          height: 400px;
+          margin-top: -180px
+        }
+        .container .choose h1
+        {
+          font-weight: 100;
+          font-size: xxx-large;
+          text-align: center;
+          font-family: fantasy; 
+        }
+        .container .choose h4
+        {
+          font-weight: 600;
+          font-size:large;
+          text-align: center;
+          font-family: cursive; 
+        }
+        .container .dishes{
+          width: 1200px;
+          margin-top: 150px;
+          height: auto;
+          background-color: bisque;
+          
+                    
+                    padding: 20px 0;
+        }
+        .container .dishes .d1{
+          width: 400px;
+          height: 80px;
+          background-size: cover;
+          background-color: bisque;
+         float: left;
+         /* display: flex;
+                    align-items: center;
+                    justify-content: space-around; */
+         
+        }
+        .container .dishes .d1 .pizza{
+          width: 350px;
+          height: 250px;
+          align-items: center;
+          padding: 50px;
+          border-radius: 200px;
+        }
+        .container .dishes .d1 h3{
+          font-weight: 600;
+          font-size:large;
+          text-align: center;
+          font-family:cursive; 
+        }
+        .container .dishes .d1 p{
+          font-weight: 500;
+          font-size: larger;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif; 
+        }
+        .container .dishes .d1 .order{
+          border-radius: 20px;
+          width: 180px;
+          height: 50px;
+          margin-top: 10px;
+          margin-left: 110px;
+          text-align: center;
+          font-weight: bold;
+          font-size: larger;
+          cursor: pointer;
+        }
+        .container .dishes .d1 button:hover
+        {
+          background-color: yellow;
+        }
+        .container .dishes .d1 button:active
+        {
+          background-color: rgb(199, 199, 0);
+        }
+        .container .dishes .d2{
+          width: 400px;
+          height: 80px;
+         background-color: bisque;
+         float: left;
+        }
+        .container .dishes .d2 .burger{
+          height: 250px;
+          align-items: center;
+          padding: 50px;
+          border-radius: 50px;
+        }
+        .container .dishes .d2 h3{
+          font-weight: 600;
+          font-size:large;
+          text-align: center;
+          font-family:cursive; 
+        }
+        .container .dishes .d2 p{
+          font-weight: 500;
+          font-size: larger;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif; 
+        }
+        .container .dishes .d2 BUTTON{
+          border-radius: 20px;
+          width: 180px;
+          height: 50px;
+          margin-left: 110px;
+          margin-left: 100px;
+          text-align: center;
+          font-weight: bold;
+          font-size: larger;
+          cursor: pointer;
+        }
+        .container .dishes .d2 button:hover
+        {
+          background-color: yellow;
+        }
+        .container .dishes .d2 button:active
+        {
+          background-color: rgb(199, 199, 0);
+        }
+        .container .dishes .d3{
+          width: 400px;
+          height: 80px;
+         background-color: bisque;
+         float: left;
+        }
+        .container .dishes .d3 .pasta{
+          height: 250px;
+          align-items: center;
+          padding: 50px;
+          border-radius: 100%;
+        }
+        .container .dishes .d3 h3{
+          font-weight: 600;
+          font-size:large;
+          text-align: center;
+          font-family:cursive; 
+        }
+        .container .dishes .d3 p{
+          font-weight: 500;
+          font-size: larger;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif; 
+        }
+        .container .dishes .d3 .order{
+          border-radius: 20px;
+          width: 180px;
+          height: 50px;
+          margin-left: 110px;
+          margin-left: 100px;
+          text-align: center;
+          font-weight: bold;
+          font-size: larger;
+          cursor: pointer;
+        }
+        .container .dishes .d3 button:hover
+        {
+          background-color: yellow;
+        }
+        .container .dishes .d3 button:active
+        {
+          background-color: rgb(199, 199, 0);
+        }
+        .container .discover{
+          width: 1200px;
+          margin-top: 550px;
+        }
+        .container .discover h3{
+          font-size: x-large;
+          text-align: center;
+          margin-bottom: 0;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container .discover h1{
+          margin-top: 0;
+          margin-bottom: 5px;
+          text-align: center;
+          font-size: xxx-large;
+        }
+        .container .discover p{
+          font-size: medium;
+          text-align: center;
+          margin-top: 0;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container .menu-pics
+        {
+          margin-top: 50px;
+          width: 1200px;
+          float: left;
+          margin-left: 100px;
+          align-items: center;
+          margin-bottom: 50px;
+        }
+        .container .menu-pics .p1
+        {
+          float: left;
+          width: 500px;
+          margin-right: 50px;
+        }
+        .container .menu-pics .p2
+        {
+          float: left;
+          width: 500px;
+        }
+        .container .res {
+          text-align: center;
+         }
+        .container .res h2{
+          
+        }
+        .container .res h1{
+          font-size: xx-large;
+        }
