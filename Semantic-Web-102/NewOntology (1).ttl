@@ -1,0 +1,154 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 19 ###
+#  --------------------------- Property 0------------------------- 
+:Looking_in rdf:type owl:ObjectProperty ;
+            rdfs:label "Looking in"@en; 
+            rdfs:domain :USER;
+            rdfs:range :CITY . 
+#  --------------------------- Property 1------------------------- 
+:wants_to_ rdf:type owl:ObjectProperty ;
+           rdfs:label "wants to "@en; 
+           rdfs:domain :CITY;
+           rdfs:range :RENT . 
+#  --------------------------- Property 2------------------------- 
+:wants_to_ rdf:type owl:ObjectProperty ;
+           rdfs:label "wants to "@en; 
+           rdfs:domain :CITY;
+           rdfs:range :BUY . 
+#  --------------------------- Property 3------------------------- 
+:objectProperty9 rdf:type owl:ObjectProperty ;
+                 rdfs:label "newObjectProperty"@en; 
+                 rdfs:domain :BUY;
+                 rdfs:range :PLOT . 
+#  --------------------------- Property 4------------------------- 
+:objectProperty10 rdf:type owl:ObjectProperty ;
+                  rdfs:label "newObjectProperty"@en; 
+                  rdfs:domain :BUY;
+                  rdfs:range :FLAT . 
+#  --------------------------- Property 5------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :RENT;
+   rdfs:range :FLAT . 
+#  --------------------------- Property 6------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :BUY;
+   rdfs:range :HOUSE . 
+#  --------------------------- Property 7------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :RENT;
+   rdfs:range :HOUSE . 
+#  --------------------------- Property 8------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :FLAT;
+   rdfs:range :1_BHK . 
+#  --------------------------- Property 9------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :FLAT;
+   rdfs:range :STUDIO_APARTMENT . 
+#  --------------------------- Property 10------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :PLOT;
+   rdfs:range :LOCALITY . 
+#  --------------------------- Property 11------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "in"@en; 
+   rdfs:domain :1_BHK;
+   rdfs:range :LOCALITY . 
+#  --------------------------- Property 12------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "in"@en; 
+   rdfs:domain :STUDIO_APARTMENT;
+   rdfs:range :LOCALITY . 
+#  --------------------------- Property 13------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "in"@en; 
+   rdfs:domain :HOUSE;
+   rdfs:range :LOCALITY . 
+#  --------------------------- Property 14------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "is managed by"@en; 
+   rdfs:domain :LOCALITY;
+   rdfs:range :DEALER_DETAILS . 
+#  --------------------------- Property 15------------------------- 
+:objectProperty26 rdf:type owl:ObjectProperty ;
+                  rdfs:label "newObjectProperty"@en; 
+                  rdfs:domain :DEALER_DETAILS;
+                  rdfs:range :USER . 
+#  --------------------------- Property 16------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :BUY;
+   rdfs:range :SHOP . 
+#  --------------------------- Property 17------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "."@en; 
+   rdfs:domain :RENT;
+   rdfs:range :SHOP . 
+#  --------------------------- Property 18------------------------- 
+:. rdf:type owl:ObjectProperty ;
+   rdfs:label "in"@en; 
+   rdfs:domain :SHOP;
+   rdfs:range :LOCALITY . 
+###  Class Definitions (Number of Classes) 12 ###
+#  --------------------------- Class  0------------------------- 
+:USER rdf:type owl:Class; 
+      rdfs:label "USER"@en . 
+#  --------------------------- Class  1------------------------- 
+:CITY rdf:type owl:Class; 
+      rdfs:label "CITY"@en . 
+#  --------------------------- Class  2------------------------- 
+:RENT rdf:type owl:Class; 
+      rdfs:label "RENT"@en . 
+#  --------------------------- Class  3------------------------- 
+:BUY rdf:type owl:Class; 
+     rdfs:label "BUY"@en . 
+#  --------------------------- Class  4------------------------- 
+:PLOT rdf:type owl:Class; 
+      rdfs:label "PLOT"@en . 
+#  --------------------------- Class  5------------------------- 
+:FLAT rdf:type owl:Class; 
+      rdfs:label "FLAT/ APARTMENT"@en . 
+#  --------------------------- Class  6------------------------- 
+:HOUSE rdf:type owl:Class; 
+       rdfs:label "HOUSE"@en . 
+#  --------------------------- Class  7------------------------- 
+:1_BHK rdf:type owl:Class; 
+       rdfs:label "1/2/3/4 BHK"@en . 
+#  --------------------------- Class  8------------------------- 
+:STUDIO_APARTMENT rdf:type owl:Class; 
+                  rdfs:label "STUDIO APARTMENT"@en . 
+#  --------------------------- Class  9------------------------- 
+:LOCALITY rdf:type owl:Class; 
+          rdfs:label "LOCALITY"@en . 
+#  --------------------------- Class  10------------------------- 
+:DEALER_DETAILS rdf:type owl:Class; 
+                rdfs:label "DEALER DETAILS"@en . 
+#  --------------------------- Class  11------------------------- 
+:SHOP rdf:type owl:Class; 
+      rdfs:label "SHOP"@en . 
