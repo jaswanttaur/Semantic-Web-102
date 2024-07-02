@@ -1,0 +1,9 @@
+# filename: ex002.ttl
+@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ab:ram ab:HomeTel "(91) 23456789" . 
+ab:ram ab:Father "shamlal" .
+
+ab:shamlal ab:Hometel "(245) 276-5135" .
+ab:shamlal ab:son "Reena" .

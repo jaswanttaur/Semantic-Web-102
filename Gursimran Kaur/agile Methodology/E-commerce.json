@@ -1,0 +1,999 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2003/01/geo/wgs84_pos",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/2000/10/swap/pim/contact",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot": "http://xmlns.com/wot/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "undefined": "Friend of a Friend (FOAF) vocabulary"
+    },
+    "iri": "http://xmlns.com/foaf/0.1/",
+    "description": {
+      "undefined": "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language."
+    },
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Friend of a Friend (FOAF) vocabulary",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.59",
+      "translation": [
+        500.17,
+        314.05
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId58",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId59",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId61",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId62",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId72",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId79",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId80",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class85",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId89",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId90",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId30",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId31",
+      "type": "rdfs:Literal"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class52",
+      "iri": "http://xmlns.com/foaf/0.1/E-commerce",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "E-commerce",
+      "pos": [
+        -152.3,
+        -131.18
+      ]
+    },
+    {
+      "id": "Class53",
+      "iri": "http://xmlns.com/foaf/0.1/Customer",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Customer",
+      "pos": [
+        353.14,
+        -192.2
+      ]
+    },
+    {
+      "id": "Class54",
+      "iri": "http://xmlns.com/foaf/0.1/Product",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Product",
+      "pos": [
+        431.49,
+        65.27
+      ]
+    },
+    {
+      "id": "Class55",
+      "iri": "http://xmlns.com/foaf/0.1/Payment",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Payment",
+      "pos": [
+        469.01,
+        315.19
+      ]
+    },
+    {
+      "id": "Class56",
+      "iri": "http://xmlns.com/foaf/0.1/ordre",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "order",
+      "pos": [
+        167.96,
+        365.83
+      ]
+    },
+    {
+      "id": "NodeId58",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "harman",
+      "pos": [
+        256.61,
+        -488.85
+      ]
+    },
+    {
+      "id": "NodeId59",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "CS1002",
+      "pos": [
+        496.95,
+        -522.54
+      ]
+    },
+    {
+      "id": "NodeId61",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "HARMAN@GMAIL.COM",
+      "pos": [
+        666.37,
+        -417.59
+      ]
+    },
+    {
+      "id": "NodeId62",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "456743890",
+      "pos": [
+        799.27,
+        -276.92
+      ]
+    },
+    {
+      "id": "Class70",
+      "iri": "http://xmlns.com/foaf/0.1/",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "shipped order",
+      "pos": [
+        -59.91,
+        632.8
+      ]
+    },
+    {
+      "id": "Class71",
+      "iri": "http://xmlns.com/foaf/0.1/NewClzass",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "cancelled order",
+      "pos": [
+        95.29,
+        669.75
+      ]
+    },
+    {
+      "id": "NodeId72",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "34562",
+      "pos": [
+        -81.07,
+        480.36
+      ]
+    },
+    {
+      "id": "Class76",
+      "iri": "http://xmlns.com/foaf/0.1/Delivery_Order",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Delivery Order",
+      "pos": [
+        280.05,
+        635.75
+      ]
+    },
+    {
+      "id": "NodeId79",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "CASH ON DELIVERY",
+      "pos": [
+        347.1,
+        524.32
+      ]
+    },
+    {
+      "id": "NodeId80",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "345267",
+      "pos": [
+        493.43,
+        623.35
+      ]
+    },
+    {
+      "id": "Class83",
+      "iri": "http://xmlns.com/foaf/0.1/Digital_Transfers",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Digital Transfers",
+      "pos": [
+        377.77,
+        785.13
+      ]
+    },
+    {
+      "id": "Class84",
+      "iri": "http://xmlns.com/foaf/0.1/debit/credit_card",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "debit/credit card",
+      "pos": [
+        593.15,
+        764.19
+      ]
+    },
+    {
+      "id": "Class85",
+      "iri": "http://xmlns.com/foaf/0.1/cash_on_delivery",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "cash on delivery",
+      "pos": [
+        736.66,
+        687.43
+      ]
+    },
+    {
+      "id": "Class88",
+      "iri": "http://xmlns.com/foaf/0.1/Gift_and_vouchers",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Gift and vouchers",
+      "pos": [
+        870.16,
+        587.3
+      ]
+    },
+    {
+      "id": "NodeId89",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "23045",
+      "pos": [
+        826.79,
+        -117.48
+      ]
+    },
+    {
+      "id": "NodeId90",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "HITACHI",
+      "pos": [
+        890.72,
+        53.56
+      ]
+    },
+    {
+      "id": "Class91",
+      "iri": "http://xmlns.com/foaf/0.1/Types",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Types",
+      "pos": [
+        882.37,
+        245.94
+      ]
+    },
+    {
+      "id": "Class92",
+      "iri": "http://xmlns.com/foaf/0.1/Electronic_Items",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Electronic Items",
+      "pos": [
+        1177.58,
+        -71.83
+      ]
+    },
+    {
+      "id": "Class93",
+      "iri": "http://xmlns.com/foaf/0.1/Kitchen_items",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Kitchen items",
+      "pos": [
+        1284.76,
+        69.19
+      ]
+    },
+    {
+      "id": "Class94",
+      "iri": "http://xmlns.com/foaf/0.1/Clothes",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Clothes",
+      "pos": [
+        1294.16,
+        255.34
+      ]
+    },
+    {
+      "id": "Class96",
+      "iri": "http://xmlns.com/foaf/0.1/shoes",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "shoes",
+      "pos": [
+        1262.2,
+        426.45
+      ]
+    },
+    {
+      "id": "Class97",
+      "iri": "http://xmlns.com/foaf/0.1/NewClass",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Stationary",
+      "pos": [
+        1148.9,
+        567.99
+      ]
+    },
+    {
+      "id": "NodeId30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "AIR CONDITIONER",
+      "pos": [
+        1183.94,
+        -363.65
+      ]
+    },
+    {
+      "id": "NodeId31",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -154.74,
+        387.13
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty75",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty76",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty78",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty80",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty81",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty83",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty92",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty93",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty94",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty98",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty100",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty101",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty104",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty105",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty106",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty109",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty110",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty111",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty112",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty113",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty114",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty115",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty116",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty117",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty30",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty31",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty75",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty75",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class52",
+      "range": "Class53",
+      "pos": [
+        100.42,
+        -161.69
+      ]
+    },
+    {
+      "id": "objectProperty76",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty76",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class52",
+      "range": "Class54",
+      "pos": [
+        139.59,
+        -32.96
+      ]
+    },
+    {
+      "id": "objectProperty77",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty77",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class52",
+      "range": "Class55",
+      "pos": [
+        158.35,
+        92
+      ]
+    },
+    {
+      "id": "objectProperty78",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty78",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class52",
+      "range": "Class56",
+      "pos": [
+        7.83,
+        117.32
+      ]
+    },
+    {
+      "id": "datatypeProperty80",
+      "iri": "http://xmlns.com/foaf/0.1/name",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "name",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class53",
+      "range": "NodeId58",
+      "pos": [
+        298.76,
+        -359.3
+      ]
+    },
+    {
+      "id": "datatypeProperty81",
+      "iri": "http://xmlns.com/foaf/0.1/Customer_Id",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Customer Id",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class53",
+      "range": "NodeId59",
+      "pos": [
+        432.85,
+        -375.29
+      ]
+    },
+    {
+      "id": "datatypeProperty83",
+      "iri": "http://xmlns.com/foaf/0.1/E-mail",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "E-mail",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class53",
+      "range": "NodeId61",
+      "pos": [
+        523.1,
+        -314.5
+      ]
+    },
+    {
+      "id": "datatypeProperty84",
+      "iri": "http://xmlns.com/foaf/0.1/pHONE_number",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "pHONE number",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class53",
+      "range": "NodeId62",
+      "pos": [
+        580.77,
+        -235.43
+      ]
+    },
+    {
+      "id": "objectProperty92",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty92",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class56",
+      "range": "Class70",
+      "pos": [
+        54.03,
+        499.31
+      ]
+    },
+    {
+      "id": "objectProperty93",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty93",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class56",
+      "range": "Class71",
+      "pos": [
+        131.63,
+        517.79
+      ]
+    },
+    {
+      "id": "datatypeProperty94",
+      "iri": "http://xmlns.com/foaf/0.1/order_Number",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "order Number",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class56",
+      "range": "NodeId72",
+      "pos": [
+        31.6,
+        428.54
+      ]
+    },
+    {
+      "id": "objectProperty98",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty98",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class56",
+      "range": "Class76",
+      "pos": [
+        224,
+        500.79
+      ]
+    },
+    {
+      "id": "datatypeProperty100",
+      "iri": "http://xmlns.com/foaf/0.1/Mode_of_payment",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Mode of payment",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class55",
+      "range": "NodeId79",
+      "pos": [
+        398.38,
+        436.35
+      ]
+    },
+    {
+      "id": "datatypeProperty101",
+      "iri": "http://xmlns.com/foaf/0.1/Total-Payment",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Total-Payment",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class55",
+      "range": "NodeId80",
+      "pos": [
+        482.8,
+        489.19
+      ]
+    },
+    {
+      "id": "objectProperty104",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty104",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class55",
+      "range": "Class83",
+      "pos": [
+        423.39,
+        550.16
+      ]
+    },
+    {
+      "id": "objectProperty105",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty105",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class55",
+      "range": "Class84",
+      "pos": [
+        531.08,
+        539.69
+      ]
+    },
+    {
+      "id": "objectProperty106",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty106",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class55",
+      "range": "Class85",
+      "pos": [
+        602.84,
+        501.31
+      ]
+    },
+    {
+      "id": "objectProperty109",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty109",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class55",
+      "range": "Class88",
+      "pos": [
+        669.59,
+        451.25
+      ]
+    },
+    {
+      "id": "datatypeProperty110",
+      "iri": "http://xmlns.com/foaf/0.1/Product_Id",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Product Id",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class54",
+      "range": "NodeId89",
+      "pos": [
+        641.02,
+        -31.59
+      ]
+    },
+    {
+      "id": "datatypeProperty111",
+      "iri": "http://xmlns.com/foaf/0.1/brand_of_the_product",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "brand of the product",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class54",
+      "range": "NodeId90",
+      "pos": [
+        669.35,
+        59.2
+      ]
+    },
+    {
+      "id": "objectProperty112",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty112",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class54",
+      "range": "Class91",
+      "pos": [
+        656.93,
+        155.6
+      ]
+    },
+    {
+      "id": "objectProperty113",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty113",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class91",
+      "range": "Class92",
+      "pos": [
+        1029.97,
+        87.06
+      ]
+    },
+    {
+      "id": "objectProperty114",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty114",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class91",
+      "range": "Class93",
+      "pos": [
+        1083.57,
+        157.56
+      ]
+    },
+    {
+      "id": "objectProperty115",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty115",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class91",
+      "range": "Class94",
+      "pos": [
+        1088.27,
+        250.64
+      ]
+    },
+    {
+      "id": "objectProperty116",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty116",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class91",
+      "range": "Class96",
+      "pos": [
+        1072.29,
+        336.19
+      ]
+    },
+    {
+      "id": "objectProperty117",
+      "iri": "http://xmlns.com/foaf/0.1/objectProperty117",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Subclass of",
+      "domain": "Class91",
+      "range": "Class97",
+      "pos": [
+        1015.63,
+        406.97
+      ]
+    },
+    {
+      "id": "datatypeProperty30",
+      "iri": "http://xmlns.com/foaf/0.1/PRODUCT_BOUGHT",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "PRODUCT BOUGHT",
+      "domain": "Class92",
+      "range": "NodeId30",
+      "pos": [
+        1181.2,
+        -237.73
+      ]
+    },
+    {
+      "id": "datatypeProperty31",
+      "iri": "http://xmlns.com/foaf/0.1/DATE_OF_THE_ORDER",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "DATE OF THE ORDER",
+      "domain": "Class56",
+      "range": "NodeId31",
+      "pos": [
+        -5.09,
+        377.25
+      ]
+    }
+  ]
+}
