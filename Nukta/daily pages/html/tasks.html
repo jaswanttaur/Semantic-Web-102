@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks Done</title>
+    <link rel="stylesheet" href="../diary.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="https://www.gndec.ac.in/"><img src="../images/gndecLogo.png" alt="GNDEC Logo"></a>
+            <a href="#" class="home-button" onclick="showSection('home')">Home</a>
+            
+        </header>
+        
+
+        <section id="home" class="section active">
+            <h1>Training TR-102 Report</h1>
+            <p>By Nukta Verma, URN 2203519 <br> Guru Nanak Dev Engineering College Ludhiana</p>
+            <h2>4 Week training in <br> Mastering the Seamntic Web </h2>
+        </section>
+        <nav>
+            <a href="#" onclick="showSection('Task1')">Task1</a>
+            <a href="#" onclick="showSection('Task2')" >Task2</a>
+            <a href="#" onclick="showSection('Task3')" >Task3</a>
+            <a href="#" onclick="showSection('Task4')" >Task4</a>
+            <a href="#" onclick="showSection('Task5')">Task5</a>
+            <a href="#" onclick="showSection('Task6')" >Task6</a>
+            <a href="#" onclick="showSection('Task7')" >Task7</a>
+            <br>
+        </nav>
+        <section id="Task1" class="section">
+            <h1>Training Task1</h1>
+            <div class="pdf-container">
+                <iframe src="../html/task1.html"></iframe>
+            </div>
+        </section>
+        <section id="Task2" class="section">
+            <h1>Training Task2</h1>
+            <div class="pdf-container">
+                <iframe src="../html/task2.html"></iframe>
+            </div>
+        </section>
+        <section id="Task3" class="section">
+            <h1>Training Task3</h1>
+            <div class="pdf-container">
+                <iframe src="../html/task3.html"></iframe>
+            </div>
+        </section>
+        <section id="Task4" class="section">
+            <h1>Training Task4</h1>
+            <div class="pdf-container">
+                <iframe src="../html/food.html"></iframe>
+            </div>
+        </section>
+        <section id="Task5" class="section">
+            <h1>Training Task5</h1>
+            <div class="pdf-container">
+                <iframe src="../html/travel.html"></iframe>
+            </div>
+        </section>
+        <section id="Task6" class="section">
+            <h1>Training Task6</h1>
+            <div class="pdf-container">
+                <iframe src="../WebVOWL.html"></iframe>
+            </div>
+        </section>
+        <section id="Task7" class="section">
+            <h1>Training Task6</h1>
+            <div class="pdf-container">
+                <iframe src="../WebVOWL2.html"></iframe>
+            </div>
+        </section>
+
+        <footer>
+            <a href="https://www.linkedin.com/in/nukta-verma-1ab18724b/"> <img src="./images/linkedin-logo.avif" alt="Unable to load" height="20px"></a>
+            <button class="main_button"><a href="../main.html">Main Page</a></button>
+         </footer>
+    </div>
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.gallery img');
+        const captions = document.querySelectorAll('.gallery .caption');
+
+        function showSlide(index) {
+            images.forEach((img, i) => {
+                img.classList.remove('active');
+                captions[i].style.display = 'none';
+            });
+            images[index].classList.add('active');
+            captions[index].style.display = 'block';
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 4000); // Change image every 4 seconds
+    </script>
+</body>
+</html>
