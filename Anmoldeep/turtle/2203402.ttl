@@ -1,0 +1,181 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "2203402"@en;
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 22 ###
+#  --------------------------- Property 0------------------------- 
+:examination rdf:type owl:ObjectProperty ;
+             rdfs:label "examination"@en; 
+             rdfs:domain :COLLEGE;
+             rdfs:range :Examination_department . 
+#  --------------------------- Property 1------------------------- 
+:Department rdf:type owl:ObjectProperty ;
+            rdfs:label "Department"@en; 
+            rdfs:domain :COLLEGE;
+            rdfs:range :Admin . 
+#  --------------------------- Property 2------------------------- 
+:display_result rdf:type owl:ObjectProperty ;
+                rdfs:label "display result"@en; 
+                rdfs:domain :Examination_department;
+                rdfs:range :Admin . 
+#  --------------------------- Property 3------------------------- 
+: rdf:type owl:DatatypeProperty ;
+  rdfs:label "schedule for exams"@en; 
+  rdfs:domain :Examination_department;
+  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:duty_of_teachers rdf:type owl:DatatypeProperty ;
+                  rdfs:label "duty of teachers"@en; 
+                  rdfs:domain :Examination_department;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:checking rdf:type owl:DatatypeProperty ;
+          rdfs:label "checking"@en; 
+          rdfs:domain :Examination_department;
+          rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 6------------------------- 
+:manage rdf:type owl:DatatypeProperty ;
+        rdfs:label "manage"@en; 
+        rdfs:domain :Admin;
+        rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 7------------------------- 
+:display_data_on_site rdf:type owl:DatatypeProperty ;
+                      rdfs:label "display data on site"@en; 
+                      rdfs:domain :Admin;
+                      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:jobs rdf:type owl:ObjectProperty ;
+      rdfs:label "jobs"@en; 
+      rdfs:domain :COLLEGE;
+      rdfs:range :TNP . 
+#  --------------------------- Property 9------------------------- 
+:paid_or_free rdf:type owl:DatatypeProperty ;
+              rdfs:label "paid or free"@en; 
+              rdfs:domain :TNP;
+              rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+:package rdf:type owl:DatatypeProperty ;
+         rdfs:label "package"@en; 
+         rdfs:domain :TNP;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 11------------------------- 
+:department rdf:type owl:ObjectProperty ;
+            rdfs:label "department"@en; 
+            rdfs:domain :COLLEGE;
+            rdfs:range :Admission_cell . 
+#  --------------------------- Property 12------------------------- 
+:new_id rdf:type owl:DatatypeProperty ;
+        rdfs:label "new id"@en; 
+        rdfs:domain :Admission_cell;
+        rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 13------------------------- 
+:evaluation rdf:type owl:DatatypeProperty ;
+            rdfs:label "evaluation"@en; 
+            rdfs:domain :Admission_cell;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:fee rdf:type owl:DatatypeProperty ;
+     rdfs:label "fee"@en; 
+     rdfs:domain :Admission_cell;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 15------------------------- 
+:branches rdf:type owl:ObjectProperty ;
+          rdfs:label "branches"@en; 
+          rdfs:domain :COLLEGE;
+          rdfs:range :6_branches . 
+#  --------------------------- Property 16------------------------- 
+:library rdf:type owl:ObjectProperty ;
+         rdfs:label "library"@en; 
+         rdfs:domain :COLLEGE;
+         rdfs:range :library . 
+#  --------------------------- Property 17------------------------- 
+:issue,renew_books rdf:type owl:DatatypeProperty ;
+                   rdfs:label "issue,renew books"@en; 
+                   rdfs:domain :library;
+                   rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 18------------------------- 
+:new_student_id rdf:type owl:DatatypeProperty ;
+                rdfs:label "new student id"@en; 
+                rdfs:domain :library;
+                rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 19------------------------- 
+:mess rdf:type owl:ObjectProperty ;
+      rdfs:label "mess"@en; 
+      rdfs:domain :COLLEGE;
+      rdfs:range :mess_management . 
+#  --------------------------- Property 20------------------------- 
+:cash_flow rdf:type owl:DatatypeProperty ;
+           rdfs:label "cash flow"@en; 
+           rdfs:domain :mess_management;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 21------------------------- 
+:diet rdf:type owl:DatatypeProperty ;
+      rdfs:label "diet"@en; 
+      rdfs:domain :mess_management;
+      rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 14 ###
+#  --------------------------- Class  0------------------------- 
+:COLLEGE rdf:type owl:Class; 
+         rdfs:label "COLLEGE"@en . 
+#  --------------------------- Class  1------------------------- 
+:Examination_department rdf:type owl:Class; 
+                        rdfs:label "Examination department"@en . 
+#  --------------------------- Class  2------------------------- 
+:Admin rdf:type owl:Class; 
+       rdfs:label "Admin"@en . 
+#  --------------------------- Class  3------------------------- 
+:TNP rdf:type owl:Class; 
+     rdfs:label "TNP"@en . 
+#  --------------------------- Class  4------------------------- 
+:Admission_cell rdf:type owl:Class; 
+                rdfs:label "Admission cell"@en . 
+#  --------------------------- Class  5------------------------- 
+:6_branches rdf:type owl:Class; 
+            rdfs:label "6 branches"@en . 
+#  --------------------------- Class  6------------------------- 
+:EE rdf:type owl:Class; 
+    rdfs:subClassOf :6_branches ;
+    rdfs:label "EE"@en . 
+#  --------------------------- Class  7------------------------- 
+:ECE rdf:type owl:Class; 
+     rdfs:subClassOf :6_branches ;
+     rdfs:label "ECE"@en . 
+#  --------------------------- Class  8------------------------- 
+:IT rdf:type owl:Class; 
+    rdfs:subClassOf :6_branches ;
+    rdfs:label "IT"@en . 
+#  --------------------------- Class  9------------------------- 
+:CSE rdf:type owl:Class; 
+     rdfs:subClassOf :6_branches ;
+     rdfs:label "CSE"@en . 
+#  --------------------------- Class  10------------------------- 
+:ME rdf:type owl:Class; 
+    rdfs:subClassOf :6_branches ;
+    rdfs:label "ME"@en . 
+#  --------------------------- Class  11------------------------- 
+:CIVIL rdf:type owl:Class; 
+       rdfs:subClassOf :6_branches ;
+       rdfs:label "CIVIL"@en . 
+#  --------------------------- Class  12------------------------- 
+:library rdf:type owl:Class; 
+         rdfs:label "library"@en . 
+#  --------------------------- Class  13------------------------- 
+:mess_management rdf:type owl:Class; 
+                 rdfs:label "mess management"@en . 
