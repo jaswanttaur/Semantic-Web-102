@@ -1,0 +1,39 @@
+/* 1170px for mobile */
+.container{
+  width: 1200px;  
+  height: auto;
+  margin: 0 auto;
+}
+.container .header{
+  width: 1200px;
+  height: 200px;
+  background-color: red;
+}
+.container .contentrow1{
+  width: 1200px;
+  height: auto;
+}
+.container .contentrow1 .content1{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  float: left;
+}
+.container .contentrow1 .content2{
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  float: left;
+}
+.container .contentrow1 .content3{
+  width: 300px;
+  height: 200px;
+  background-color: wheat;
+  float: left;
+}
+.container .contentrow1 .content4{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(218, 169, 77);
+  float: left;
+}

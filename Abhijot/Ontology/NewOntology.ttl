@@ -1,0 +1,121 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 10 ###
+#  --------------------------- Property 0------------------------- 
+:van2 rdf:type owl:DatatypeProperty ;
+      rdfs:label "can"@en; 
+      rdfs:domain :City;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:has rdf:type owl:DatatypeProperty ;
+     rdfs:label "can"@en; 
+     rdfs:domain :City;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:can rdf:type owl:DatatypeProperty ;
+     rdfs:label "can"@en; 
+     rdfs:domain :City;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 3------------------------- 
+:has1 rdf:type owl:DatatypeProperty ;
+      rdfs:label "can"@en; 
+      rdfs:domain :City;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:has9 rdf:type owl:DatatypeProperty ;
+      rdfs:label "has"@en; 
+      rdfs:domain :Types_of_Listings;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:has10 rdf:type owl:DatatypeProperty ;
+       rdfs:label "has"@en; 
+       rdfs:domain :Types_of_Listings;
+       rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 6------------------------- 
+:has11 rdf:type owl:DatatypeProperty ;
+       rdfs:label "has"@en; 
+       rdfs:domain :Types_of_Listings;
+       rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 7------------------------- 
+:has3 rdf:type owl:DatatypeProperty ;
+      rdfs:label "has"@en; 
+      rdfs:domain :Types_of_Listings;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:comntains rdf:type owl:DatatypeProperty ;
+           rdfs:label "contain"@en; 
+           rdfs:domain :Agent_Details;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+:contain rdf:type owl:DatatypeProperty ;
+         rdfs:label "contain"@en; 
+         rdfs:domain :Agent_Details;
+         rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 7 ###
+#  --------------------------- Class  0------------------------- 
+:Buyer rdf:type owl:Class; 
+       rdfs:subClassOf :City ;
+       rdfs:label "Buyer"@en . 
+#  --------------------------- Class  1------------------------- 
+:City rdf:type owl:Class; 
+      rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                        owl:onProperty :INFO;
+                        owl:allValuesFrom :Bank
+                      ];
+      rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                        owl:onProperty :Budget;
+                        owl:allValuesFrom :Types_of_Listings
+                      ];
+      rdfs:label "City"@en . 
+#  --------------------------- Class  2------------------------- 
+:Bank rdf:type owl:Class; 
+      rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                        owl:onProperty :Loan_Offers;
+                        owl:allValuesFrom :Buyer
+                      ];
+      rdfs:label "Bank"@en . 
+#  --------------------------- Class  3------------------------- 
+:Types_of_Listings rdf:type owl:Class; 
+                   rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                     owl:onProperty :Li;
+                                     owl:allValuesFrom :Listed_In
+                                   ];
+                   rdfs:label "Types of Listings"@en . 
+#  --------------------------- Class  4------------------------- 
+:Listed_In rdf:type owl:Class; 
+           rdfs:subClassOf :Listing_ID ;
+           rdfs:subClassOf :Agent_Details ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                             owl:onProperty :Recomendations;
+                             owl:allValuesFrom :Buyer
+                           ];
+           rdfs:label "Locality"@en . 
+#  --------------------------- Class  5------------------------- 
+:Listing_ID rdf:type owl:Class; 
+            rdfs:label "Listing ID"@en . 
+#  --------------------------- Class  6------------------------- 
+:Agent_Details rdf:type owl:Class; 
+               rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                 owl:onProperty :Details_provided;
+                                 owl:allValuesFrom :Buyer
+                               ];
+               rdfs:label "Agent Details"@en . 

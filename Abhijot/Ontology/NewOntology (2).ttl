@@ -1,0 +1,46 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 2 ###
+#  --------------------------- Property 0------------------------- 
+:objectProperty2 rdf:type owl:ObjectProperty ;
+                 rdfs:label "newObjectProperty"@en; 
+                 rdfs:domain :bye;
+                 rdfs:range :ab . 
+#  --------------------------- Property 1------------------------- 
+:objectProperty4 rdf:type owl:ObjectProperty ;
+                 rdfs:label "newObjectProperty"@en; 
+                 rdfs:domain :bye;
+                 rdfs:range :xy . 
+###  Class Definitions (Number of Classes) 4 ###
+#  --------------------------- Class  0------------------------- 
+:Hi rdf:type owl:Class; 
+    rdfs:subClassOf :bye ;
+    rdfs:label "Hi"@en . 
+#  --------------------------- Class  1------------------------- 
+:bye rdf:type owl:Class; 
+     rdfs:label "bye"@en . 
+#  --------------------------- Class  2------------------------- 
+:xy rdf:type owl:Class; 
+    rdfs:label "xy"@en . 
+#  --------------------------- Class  3------------------------- 
+:ab rdf:type owl:Class; 
+    rdfs:label "ab"@en . 
