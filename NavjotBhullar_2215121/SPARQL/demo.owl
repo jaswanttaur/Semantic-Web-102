@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/techinnovators#"
+     xml:base="http://www.example.org/techinnovators"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:Ontology rdf:about="http://www.example.org/techinnovators">
+        <rdfs:comment xml:lang="en">Ontology for Tech Innovators Inc.</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="#Company"/>
+    <owl:Class rdf:about="#Department"/>
+    <owl:Class rdf:about="#Employee"/>
+    <owl:Class rdf:about="#Project"/>
+    <owl:Class rdf:about="#Campaign"/>
+    <owl:Class rdf:about="#Role"/>
+    <owl:Class rdf:about="#Location"/>
+    <owl:Class rdf:about="#Skill"/>
+    <owl:Class rdf:about="#ContactDetail"/>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="#hasDepartment">
+        <rdfs:domain rdf:resource="#Company"/>
+        <rdfs:range rdf:resource="#Department"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasEmployee">
+        <rdfs:domain rdf:resource="#Department"/>
+        <rdfs:range rdf:resource="#Employee"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#worksOnProject">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="#Project"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#worksOnCampaign">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="#Campaign"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#locatedIn">
+        <rdfs:domain rdf:resource="#Company"/>
+        <rdfs:range rdf:resource="#Location"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasRole">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="#Role"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasSkill">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="#Skill"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasContactDetail">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="#ContactDetail"/>
+    </owl:ObjectProperty>
+
+    <!-- Datatype Properties -->
+    <owl:DatatypeProperty rdf:about="#hireDate">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="&xsd;date"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#salary">
+        <rdfs:domain rdf:resource="#Employee"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+
+    <!-- Individuals -->
+    <owl:NamedIndividual rdf:about="#TechInnovatorsInc">
+        <rdf:type rdf:resource="#Company"/>
+        <locatedIn rdf:resource="#Headquarters"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#RnD">
+        <rdf:type rdf:resource="#Department"/>
+        <rdfs:label>Research and Development</rdfs:label>
+        <hasEmployee rdf:resource="#AliceSmith"/>
+        <hasEmployee rdf:resource="#BobJohnson"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Marketing">
+        <rdf:type rdf:resource="#Department"/>
+        <rdfs:label>Marketing</rdfs:label>
+        <hasEmployee rdf:resource="#CarolWilliams"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#AliceSmith">
+        <rdf:type rdf:resource="#Employee"/>
+        <rdfs:label>Alice Smith</rdfs:label>
+        <hasRole rdf:resource="#LeadScientist"/>
+        <hireDate rdf:datatype="&xsd;date">2018-01-15</hireDate>
+        <salary rdf:datatype="&xsd;decimal">120000</salary>
+        <hasSkill rdf:resource="#QuantumComputing"/>
+        <hasSkill rdf:resource="#MachineLearning"/>
+        <hasContactDetail rdf:resource="#AliceSmithContact"/>
+        <worksOnProject rdf:resource="#ProjectQuantum"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#BobJohnson">
+        <rdf:type rdf:resource="#Employee"/>
+        <rdfs:label>Bob Johnson</rdfs:label>
+        <hasRole rdf:resource="#JuniorDeveloper"/>
+        <hireDate rdf:datatype="&xsd;date">2020-07-23</hireDate>
+        <salary rdf:datatype="&xsd;decimal">80000</salary>
+        <hasSkill rdf:resource="#Python"/>
+        <hasSkill rdf:resource="#JavaScript"/>
+        <hasContactDetail rdf:resource="#BobJohnsonContact"/>
+        <worksOnProject rdf:resource="#AIAssistant"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#CarolWilliams">
+        <rdf:type rdf:resource="#Employee"/>
+        <rdfs:label>Carol Williams</rdfs:label>
+        <hasRole rdf:resource="#MarketingManager"/>
+        <hireDate rdf:datatype="&xsd;date">2017-09-10</hireDate>
+        <salary rdf:datatype="&xsd;decimal">95000</salary>
+        <hasSkill rdf:resource="#SEO"/>
+        <hasSkill rdf:resource="#ContentMarketing"/>
+        <hasContactDetail rdf:resource="#CarolWilliamsContact"/>
+        <worksOnCampaign rdf:resource="#ProductLaunch2023"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ProjectQuantum">
+        <rdf:type rdf:resource="#Project"/>
+        <rdfs:label>Project Quantum</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#AIAssistant">
+        <rdf:type rdf:resource="#Project"/>
+        <rdfs:label>AI Assistant</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ProductLaunch2023">
+        <rdf:type rdf:resource="#Campaign"/>
+        <rdfs:label>Product Launch 2023</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#LeadScientist">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Lead Scientist</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#JuniorDeveloper">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Junior Developer</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#MarketingManager">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Marketing Manager</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#QuantumComputing">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>Quantum Computing</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#MachineLearning">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>Machine Learning</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Python">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>Python</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#JavaScript">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>JavaScript</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#SEO">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>SEO</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ContentMarketing">
+        <rdf:type rdf:resource="#Skill"/>
+        <rdfs:label>Content Marketing</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Headquarters">
+        <rdf:type rdf:resource="#Location"/>
+        <rdfs:label>Headquarters</rdfs:label>
+        <rdfs:comment>Main office of Tech Innovators Inc.</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#AliceSmithContact">
+        <rdf:type rdf:resource="#ContactDetail"/>
+        <rdfs:label>Alice Smith's Contact</rdfs:label>
+        <rdfs:comment>Primary contact details for Alice Smith</rdfs:comment>
+        <hasEmail rdf:datatype="&xsd;string">alice.smith@example.org</hasEmail>
+        <hasPhoneNumber rdf:datatype="&xsd;string">+1234567890</hasPhoneNumber>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#BobJohnsonContact">
+        <rdf:type rdf:resource="#ContactDetail"/>
+        <rdfs:label>Bob Johnson's Contact</rdfs:label>
+        <rdfs:comment>Primary contact details for Bob Johnson</rdfs:comment>
+        <hasEmail rdf:datatype="&xsd;string">bob.johnson@example.org</hasEmail>
+        <hasPhoneNumber rdf:datatype="&xsd;string">+0987654321</hasPhoneNumber>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#CarolWilliamsContact">
+        <rdf:type rdf:resource="#ContactDetail"/>
+        <rdfs:label>Carol Williams's Contact</rdfs:label>
+        <rdfs:comment>Primary contact details for Carol Williams</rdfs:comment>
+        <hasEmail rdf:datatype="&xsd;string">carol.williams@example.org</hasEmail>
+        <hasPhoneNumber rdf:datatype="&xsd;string">+1122334455</hasPhoneNumber>
+    </owl:NamedIndividual>
+
+    <!-- SPARQL Queries as Comments -->
+    <!--
+    SPARQL Query 1: Get all employees and their projects
+    PREFIX ex: <http://www.example.org/techinnovators#>
+    SELECT ?employee ?project
+    WHERE {
+        ?employee rdf:type ex:Employee .
+        ?employee ex:worksOnProject ?project .
+    }
+
+    SPARQL Query 2: Get all departments and their employees
+    PREFIX ex: <http://www.example.org/techinnovators#>
+    SELECT ?department ?employee
+    WHERE {
+        ?department rdf:type ex:Department .
+        ?department ex:hasEmployee ?employee .
+    }
+
+    SPARQL Query 3: Get all employees with their skills
+    PREFIX ex: <http://www.example.org/techinnovators#>
+    SELECT ?employee ?skill
+    WHERE {
+        ?employee rdf:type ex:Employee .
+        ?employee ex:hasSkill ?skill .
+    }
+
+    SPARQL Query 4: Get all employees and their contact details
+    PREFIX ex: <http://www.example.org/techinnovators#>
+    SELECT ?employee ?contactDetail
+    WHERE {
+        ?employee rdf:type ex:Employee .
+        ?employee ex:hasContactDetail ?contactDetail .
+    }
+
+    SPARQL Query 5: Get all companies and their locations
+    PREFIX ex: <http://www.example.org/techinnovators#>
+    SELECT ?company ?location
+    WHERE {
+        ?company rdf:type ex:Company .
+        ?company ex:locatedIn ?location .
+    }
+    -->
+
+</rdf:RDF>
