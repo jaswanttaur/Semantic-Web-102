@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            This is my first webpage
+        </title>0
+    </head>
+    <body> 
+        <h1>introduction</h1>
+        <ol type="1">
+            <li>Name:
+                <ol type="a">
+                   <li>Type name here:</li>
+                </ol>
+                </li>
+            </li>Class:
+                <ol type="a">
+                   <li>Type Class here:</li>   
+                </ol>
+                </li>   
+            <li>Roll no:
+                    <ol type="a">
+                      <li>Type Roll no here:</li>
+                </ol>
+                </li>
+         </ol>
+         <a href="gurvinder.html"target="ABOUT uS">Home</a>
+         <a href="about us.html"target="Gallery">About Us</a>
+         <a href="gallery.html"target="Portfolio">Gallery</a>
+         <a href="portfolio.html"target="contact Us">Home</a>
+         <a href="contact us.html"target="ABOUT uS">Contact Us</a>
+         <h1>head</h1>
+     </body>
+</html>                
