@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<result>
+    <student1 id="1">
+        <name>Navjot Singh Bhullar</name>
+        <crn>2215121</crn>
+        <urn>2203511</urn>
+    </student1>
+        <student2 id="2">
+        <name>Random</name>
+        <crn>2215122</crn>
+        <urn>2203512</urn>
+    </student2>
+</result>

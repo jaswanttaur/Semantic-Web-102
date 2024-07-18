@@ -1,0 +1,79 @@
+{
+  "company": {
+    "name": "Tech Innovators Inc.",
+    "location": {
+      "address": "123 Innovation Drive",
+      "city": "Techville",
+      "state": "CA",
+      "zip": "94025"
+    },
+    "departments": [
+      {
+        "id": 1,
+        "name": "Research and Development",
+        "employees": [
+          {
+            "id": 101,
+            "name": "Alice Smith",
+            "position": "Lead Scientist",
+            "email": "alice.smith@techinnovators.com",
+            "phone": "+1-555-1234",
+            "hire_date": "2018-01-15",
+            "salary": 120000,
+            "projects": [
+              {
+                "project_id": "P001",
+                "name": "Project Quantum",
+                "start_date": "2019-05-01",
+                "end_date": null,
+                "status": "ongoing"
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "name": "Bob Johnson",
+            "position": "Junior Developer",
+            "email": "bob.johnson@techinnovators.com",
+            "phone": "+1-555-5678",
+            "hire_date": "2020-07-23",
+            "salary": 80000,
+            "projects": [
+              {
+                "project_id": "P002",
+                "name": "AI Assistant",
+                "start_date": "2021-03-15",
+                "end_date": "2023-06-30",
+                "status": "completed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Marketing",
+        "employees": [
+          {
+            "id": 201,
+            "name": "Carol Williams",
+            "position": "Marketing Manager",
+            "email": "carol.williams@techinnovators.com",
+            "phone": "+1-555-6789",
+            "hire_date": "2017-09-10",
+            "salary": 95000,
+            "campaigns": [
+              {
+                "campaign_id": "C001",
+                "name": "Product Launch 2023",
+                "start_date": "2023-01-01",
+                "end_date": "2023-12-31",
+                "status": "ongoing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

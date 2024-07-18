@@ -1,0 +1,248 @@
+/* Reset some basic elements for consistency across browsers */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+  background: linear-gradient(to bottom right, yellow 50%, bisque 50%);
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav_logo img {
+  width: 50px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-info {
+  font-weight: bold;
+}
+
+.hero {
+  color: black;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.hero button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Choose & Enjoy section */
+.choose-enjoy {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.choose-enjoy h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.choose-enjoy p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.food-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-item {
+  text-align: center;
+  width: 300px;
+}
+
+.food-item img {
+  width: 100%;
+  height: auto;
+}
+
+.food-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.food-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.food-item button {
+  background: yellow;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Upcoming Events section */
+.upcoming-events {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.upcoming-events h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.upcoming-events p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.events-slider img {
+  width: 100%;
+  height: auto;
+}
+
+/* Special Offers section */
+.special-offers {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.offer {
+  text-align: center;
+  width: 30%;
+}
+
+.offer img {
+  width: 100%;
+  height: auto;
+}
+
+.offer p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Reservation section */
+.reservation {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.reservation h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.reservation form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.reservation form input, 
+.reservation form button {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.reservation form button {
+  background: yellow;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background: black;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-info p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.footer-social {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-social a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 20px;
+}
