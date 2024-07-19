@@ -1,0 +1,143 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 14 ###
+#  --------------------------- Property 0------------------------- 
+:Treated_By rdf:type owl:ObjectProperty ;
+            rdfs:label "Treated_By"@en; 
+            rdfs:domain :Patient;
+            rdfs:range :Doctor . 
+#  --------------------------- Property 1------------------------- 
+:Take_Medication rdf:type owl:ObjectProperty ;
+                 rdfs:label "Take_Medication"@en; 
+                 rdfs:domain :Patient;
+                 rdfs:range :Medication . 
+#  --------------------------- Property 2------------------------- 
+:Has_Test rdf:type owl:ObjectProperty ;
+          rdfs:label "Has_Test"@en; 
+          rdfs:domain :Patient;
+          rdfs:range :Test . 
+#  --------------------------- Property 3------------------------- 
+:Has_Disease rdf:type owl:ObjectProperty ;
+             rdfs:label "Has_Disease"@en; 
+             rdfs:domain :Patient;
+             rdfs:range :Disease . 
+#  --------------------------- Property 4------------------------- 
+:Patient_name rdf:type owl:DatatypeProperty ;
+              rdfs:label "Patient_name"@en; 
+              rdfs:domain :Patient;
+              rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+:Has_Data rdf:type owl:DatatypeProperty ;
+          rdfs:label "Has_Data"@en; 
+          rdfs:domain :Test;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 6------------------------- 
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:label "contains"@en; 
+          rdfs:domain :Test;
+          rdfs:range :Measurement . 
+#  --------------------------- Property 7------------------------- 
+:Has_Name rdf:type owl:DatatypeProperty ;
+          rdfs:label "Has_Name"@en; 
+          rdfs:domain :Disease;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 8------------------------- 
+:Med_Name rdf:type owl:DatatypeProperty ;
+          rdfs:label "Med_Name"@en; 
+          rdfs:domain :Medication;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 9------------------------- 
+:Med_Date rdf:type owl:DatatypeProperty ;
+          rdfs:label "Med_Date"@en; 
+          rdfs:domain :Medication;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 10------------------------- 
+:Doc_Name rdf:type owl:DatatypeProperty ;
+          rdfs:label "Doc_Name"@en; 
+          rdfs:domain :Doctor;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 11------------------------- 
+:Patient_ID rdf:type owl:DatatypeProperty ;
+            rdfs:label "Patient_ID"@en; 
+            rdfs:domain :Patient;
+            rdfs:range xsd:string . 
+#  --------------------------- Property 12------------------------- 
+:Item_Name rdf:type owl:DatatypeProperty ;
+           rdfs:label "Item_Name"@en; 
+           rdfs:domain :Measurement;
+           rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+:Has_Value rdf:type owl:DatatypeProperty ;
+           rdfs:label "Has_Value"@en; 
+           rdfs:domain :Measurement;
+           rdfs:range xsd:integer . 
+###  Class Definitions (Number of Classes) 6 ###
+#  --------------------------- Class  0------------------------- 
+:Patient rdf:type owl:Class; 
+         rdfs:label "Patient"@en . 
+#  --------------------------- Class  1------------------------- 
+:Doctor rdf:type owl:Class; 
+        rdfs:label "Doctor"@en . 
+#  --------------------------- Class  2------------------------- 
+:Medication rdf:type owl:Class; 
+            rdfs:label "Medication"@en . 
+#  --------------------------- Class  3------------------------- 
+:Disease rdf:type owl:Class; 
+         rdfs:label "Disease"@en . 
+#  --------------------------- Class  4------------------------- 
+:Test rdf:type owl:Class; 
+      rdfs:label "Test"@en . 
+#  --------------------------- Class  5------------------------- 
+:Measurement rdf:type owl:Class; 
+             rdfs:label "Measurement"@en . 
+
+#-------- Data
+
+:Test1 rdf:type :Test ;
+      :Patient_ID "P1001"^^xsd:string ;
+      :Patient_name "Naman"^^xsd:string .
+:Test2 rdf:type :Test ;
+      :Patient_ID "P1002"^^xsd:string;
+      :Patient_name "Aman"^^xsd:string.
+
+:patient1 rdf:type :Patient ;
+          :Patient_name "John Doe"^^xsd:string ;
+          :Patient_ID "P12345"^^xsd:string ;
+          :Has_Disease :disease1 ;
+          :Take_Medication :medication1 ;
+          :Has_Test :test1 ;
+          :Treated_By :doctor1 .
+
+:doctor1 rdf:type :Doctor ;
+         :Doc_Name "Dr. Smith"^^xsd:string .
+
+:medication1 rdf:type :Medication ;
+             :Med_Name "Aspirin"^^xsd:string ;
+             :Med_Date "2024-06-01"^^xsd:string .
+
+:disease1 rdf:type :Disease ;
+          :Has_Name "Hypertension"^^xsd:string .
+
+:test1 rdf:type :Test ;
+       :Has_Data "Blood test results"^^xsd:string ;
+       :contains :measurement1 .
+
+:measurement1 rdf:type :Measurement ;
+              :Item_Name "Blood Pressure"^^xsd:string ;
+              :Has_Value 120 .
