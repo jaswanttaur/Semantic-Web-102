@@ -1,0 +1,182 @@
+.container{
+  width: auto ;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+}
+.container2{
+  width: 1300px ;
+  margin: 0 auto;
+  background-color: rgb(216, 215, 217);
+  height: 550px;
+  
+}
+.navbar{
+  width: 100%;
+  background-color: rgb(216, 215, 217);
+}
+.navbar ul{
+  list-style-type: none;
+}
+
+.navbar ul li a{
+  margin-top: 10px;
+  text-decoration: none;
+  float: left;
+  font-size: x-large;
+  background-color: rgb(216, 215, 217);
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 0;
+}
+.navbar ul li a:hover{
+  margin-top: 25px;
+  background-color: rgb(75, 75, 75);
+  color: aliceblue;
+  cursor: pointer;
+  transition: all;
+}
+.navbar ul li a:active{
+  background-color: black;
+  color: aliceblue;
+  transition: all;
+}
+.navbar .con{
+  color: rgb(15, 15, 138);
+  margin-top: 25px;
+  margin-right: 50px;
+  float: right;
+  font-size: large;
+  padding: 10px 20px 10px 20px;
+}
+.navbar .con:hover{
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgb(75, 75, 75);
+  transition: all;
+}
+.navbar .con:active{
+  background-color: black;
+  color: aliceblue;
+  transition: all;
+}
+.container2 .row1{
+  width: 100%;
+  height: auto;
+}
+.container2 .row1 .left{
+  margin-left: 20px;
+  
+  padding-top: 100px;
+  width: 550px;
+}
+.container2 .row1 .left h1{
+  font-weight: bolder;
+  width: 400px;
+  font-variant: small-caps;
+  font-size: xxx-large;
+  margin-left: 40px;
+}
+.container2 .row1 .left h4{
+  margin-left: 40px;
+  width: 500px;
+}
+.container2 .row1 .left button{
+  width: 250px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 40px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+.container2 .row1 .left button:hover{
+  background-color: grey;
+  cursor:grab;
+  border-radius: 30px;
+}
+.container2 .row1 .left button:active{
+  background-color: black;
+  color: aliceblue;
+}
+.container2 .row1 .right{
+  margin-top: -350px;
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  float: right;
+}
+.container2 .row1 .right img{
+  width: 450px;
+ height: 320px;
+  margin-right: 50px;
+padding-top: 0;
+  border-radius: 10px;
+}
+.container2 .row2{
+  background-color: black;
+  color: whitesmoke;
+}
+.container2 .row2 h1{
+  padding-top: 50px;
+  font-size: xxx-large;
+  margin-left: 500px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.container2 .row2 h2{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: xxx-large;
+  margin-left: 550px;
+}
+.container2 .row2 h4{
+  text-align: center;
+  margin-left: 400px;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+  width: 500px;
+}
+.container2 .row2 button{
+  color: aliceblue;
+  background-color: black;
+  border-color: whitesmoke;
+  font-size: larger;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-left: 600px;
+  padding: 10px 20px 10px 20px;
+}
+.container2 .row2 button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+  cursor: pointer;
+  transition: all;
+}
+.container2 .row2 button:active{
+  background-color: rgb(152, 150, 150);
+  color: white;
+  cursor: progress;
+}
+.container2 .row3{
+  width: 1300px;
+  height: 100px;
+  background-color: rgb(195, 195, 195);
+}
+.container2 .row3 .img1{
+  float: left;
+  width: 300px;
+  height: 100px;
+  
+}
+.container2 .row3 .img2{
+  float: left;
+  width: 300px;
+  height: 100px;
+}
+.container2 .row3 .img3{
+  float: left;
+  width: 300px;
+  height: 100px;
+}

@@ -1,0 +1,186 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "Home automation system"@en;
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 18 ###
+#  --------------------------- Property 0------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :Thermostat;
+     rdfs:range :Smart_Thermostat . 
+#  --------------------------- Property 1------------------------- 
+:further_has rdf:type owl:ObjectProperty ;
+             rdfs:label "further has"@en; 
+             rdfs:domain :Smart_Thermostat;
+             rdfs:range :Smart_Learning_Thermodstat . 
+#  --------------------------- Property 2------------------------- 
+:links rdf:type owl:ObjectProperty ;
+       rdfs:label "links"@en; 
+       rdfs:domain :Smart_Thermostat;
+       rdfs:range :Schedule . 
+#  --------------------------- Property 3------------------------- 
+:LearningMode rdf:type owl:DatatypeProperty ;
+              rdfs:label "LearningMode"@en; 
+              rdfs:domain :Smart_Learning_Thermodstat;
+              rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :Camera_System;
+     rdfs:range :Camera . 
+#  --------------------------- Property 5------------------------- 
+:can rdf:type owl:DatatypeProperty ;
+     rdfs:label "can"@en; 
+     rdfs:domain :Alarm_System;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 6------------------------- 
+:can_be rdf:type owl:DatatypeProperty ;
+        rdfs:label "can be"@en; 
+        rdfs:domain :Alarm_System;
+        rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 7------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :Devices;
+     rdfs:range :Sensors . 
+#  --------------------------- Property 8------------------------- 
+:detection_range rdf:type owl:DatatypeProperty ;
+                 rdfs:label "detection range"@en; 
+                 rdfs:domain :motion;
+                 rdfs:range xsd:integer . 
+#  --------------------------- Property 9------------------------- 
+:humidity rdf:type owl:DatatypeProperty ;
+          rdfs:label "humidity"@en; 
+          rdfs:domain :temperature;
+          rdfs:range xsd:integer . 
+#  --------------------------- Property 10------------------------- 
+:is_closed rdf:type owl:DatatypeProperty ;
+           rdfs:label "is closed"@en; 
+           rdfs:domain :contact;
+           rdfs:range xsd:boolean . 
+#  --------------------------- Property 11------------------------- 
+:smoke_level rdf:type owl:DatatypeProperty ;
+             rdfs:label "smoke level"@en; 
+             rdfs:domain :Smoke;
+             rdfs:range xsd:integer . 
+#  --------------------------- Property 12------------------------- 
+:resolution rdf:type owl:DatatypeProperty ;
+            rdfs:label "resolution"@en; 
+            rdfs:domain :Camera;
+            rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+:has_night_vision rdf:type owl:DatatypeProperty ;
+                  rdfs:label "has night vision"@en; 
+                  rdfs:domain :Camera;
+                  rdfs:range xsd:boolean . 
+#  --------------------------- Property 14------------------------- 
+:start_time rdf:type owl:DatatypeProperty ;
+            rdfs:label "start time"@en; 
+            rdfs:domain :Schedule;
+            rdfs:range xsd:double . 
+#  --------------------------- Property 15------------------------- 
+:end_time rdf:type owl:DatatypeProperty ;
+          rdfs:label "end time"@en; 
+          rdfs:domain :Schedule;
+          rdfs:range xsd:double . 
+#  --------------------------- Property 16------------------------- 
+:target_temp rdf:type owl:DatatypeProperty ;
+             rdfs:label "target temp"@en; 
+             rdfs:domain :Schedule;
+             rdfs:range xsd:double . 
+#  --------------------------- Property 17------------------------- 
+:current_state rdf:type owl:DatatypeProperty ;
+               rdfs:label "current state"@en; 
+               rdfs:domain :state;
+               rdfs:range xsd:boolean . 
+###  Class Definitions (Number of Classes) 18 ###
+#  --------------------------- Class  0------------------------- 
+:Lights rdf:type owl:Class; 
+        rdfs:subClassOf :Color_Light ;
+        rdfs:subClassOf :Dimmable_Light ;
+        rdfs:label "Lights"@en . 
+#  --------------------------- Class  1------------------------- 
+:Devices rdf:type owl:Class; 
+         rdfs:subClassOf :Lights ;
+         rdfs:subClassOf :Thermostat ;
+         rdfs:subClassOf :Security_System ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                           owl:onProperty :objectProperty40;
+                           owl:someValuesFrom :state
+                         ];
+         rdfs:label "Devices"@en . 
+#  --------------------------- Class  2------------------------- 
+:Color_Light rdf:type owl:Class; 
+             rdfs:label "Color Light"@en . 
+#  --------------------------- Class  3------------------------- 
+:Dimmable_Light rdf:type owl:Class; 
+                rdfs:label "Dimmable Light"@en . 
+#  --------------------------- Class  4------------------------- 
+:Thermostat rdf:type owl:Class; 
+            rdfs:label "Thermostat"@en . 
+#  --------------------------- Class  5------------------------- 
+:Smart_Thermostat rdf:type owl:Class; 
+                  rdfs:label "Smart Thermostat"@en . 
+#  --------------------------- Class  6------------------------- 
+:Smart_Learning_Thermodstat rdf:type owl:Class; 
+                            rdfs:label "Smart Learning Thermodstat"@en . 
+#  --------------------------- Class  7------------------------- 
+:Schedule rdf:type owl:Class; 
+          rdfs:label "Schedule"@en . 
+#  --------------------------- Class  8------------------------- 
+:Security_System rdf:type owl:Class; 
+                 rdfs:subClassOf :Camera_System ;
+                 rdfs:subClassOf :Alarm_System ;
+                 rdfs:label "Security System"@en . 
+#  --------------------------- Class  9------------------------- 
+:Camera_System rdf:type owl:Class; 
+               rdfs:label "Camera System"@en . 
+#  --------------------------- Class  10------------------------- 
+:Alarm_System rdf:type owl:Class; 
+              rdfs:label "Alarm System"@en . 
+#  --------------------------- Class  11------------------------- 
+:Camera rdf:type owl:Class; 
+        rdfs:label "Camera"@en . 
+#  --------------------------- Class  12------------------------- 
+:Sensors rdf:type owl:Class; 
+         rdfs:subClassOf :motion ;
+         rdfs:subClassOf :temperature ;
+         rdfs:subClassOf :contact ;
+         rdfs:subClassOf :Smoke ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                           owl:onProperty :objectProperty42;
+                           owl:someValuesFrom :state
+                         ];
+         rdfs:label "Sensors"@en . 
+#  --------------------------- Class  13------------------------- 
+:motion rdf:type owl:Class; 
+        rdfs:label "motion"@en . 
+#  --------------------------- Class  14------------------------- 
+:temperature rdf:type owl:Class; 
+             rdfs:label "temperature"@en . 
+#  --------------------------- Class  15------------------------- 
+:contact rdf:type owl:Class; 
+         rdfs:label "contact"@en . 
+#  --------------------------- Class  16------------------------- 
+:Smoke rdf:type owl:Class; 
+       rdfs:label "Smoke"@en . 
+#  --------------------------- Class  17------------------------- 
+:state rdf:type owl:Class; 
+       rdfs:label "state"@en . 

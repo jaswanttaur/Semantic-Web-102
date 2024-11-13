@@ -1,0 +1,198 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 23 ###
+#  --------------------------- Property 0------------------------- 
+:targets rdf:type owl:ObjectProperty ;
+         rdfs:label "targets"@en; 
+         rdfs:domain :Cyber_Crtiminal;
+         rdfs:range :Victim . 
+#  --------------------------- Property 1------------------------- 
+:uses rdf:type owl:ObjectProperty ;
+      rdfs:label "uses"@en; 
+      rdfs:domain :Cyber_Crtiminal;
+      rdfs:range :Techniques . 
+#  --------------------------- Property 2------------------------- 
+:exploits rdf:type owl:ObjectProperty ;
+          rdfs:label "exploits"@en; 
+          rdfs:domain :Cyber_Crtiminal;
+          rdfs:range :Vulnerabilty . 
+#  --------------------------- Property 3------------------------- 
+:Infiltrates rdf:type owl:ObjectProperty ;
+             rdfs:label "Infiltrates"@en; 
+             rdfs:domain :Cyber_Crtiminal;
+             rdfs:range :Computer . 
+#  --------------------------- Property 4------------------------- 
+:Infiltrates2 rdf:type owl:ObjectProperty ;
+              rdfs:label "Infiltrates"@en; 
+              rdfs:domain :Cyber_Crtiminal;
+              rdfs:range :Network . 
+#  --------------------------- Property 5------------------------- 
+:steals rdf:type owl:ObjectProperty ;
+        rdfs:label "steals"@en; 
+        rdfs:domain :CYBERCRIME;
+        rdfs:range :Data . 
+#  --------------------------- Property 6------------------------- 
+:forges rdf:type owl:ObjectProperty ;
+        rdfs:label "forges"@en; 
+        rdfs:domain :Cyber_Crtiminal;
+        rdfs:range :Document . 
+#  --------------------------- Property 7------------------------- 
+:Impersonates rdf:type owl:ObjectProperty ;
+              rdfs:label "Impersonates"@en; 
+              rdfs:domain :Cyber_Crtiminal;
+              rdfs:range :Entity . 
+#  --------------------------- Property 8------------------------- 
+:transferss rdf:type owl:ObjectProperty ;
+            rdfs:label "launders"@en; 
+            rdfs:domain :Money_Mule;
+            rdfs:range :Financial_Inst . 
+#  --------------------------- Property 9------------------------- 
+:transfers rdf:type owl:ObjectProperty ;
+           rdfs:label "transfers"@en; 
+           rdfs:domain :Cyber_Crtiminal;
+           rdfs:range :Financial_Inst . 
+#  --------------------------- Property 10------------------------- 
+:investigates rdf:type owl:ObjectProperty ;
+              rdfs:label "investigates"@en; 
+              rdfs:domain :Law_EA;
+              rdfs:range :CYBERCRIME . 
+#  --------------------------- Property 11------------------------- 
+:assigned_to rdf:type owl:ObjectProperty ;
+             rdfs:label "assigned to"@en; 
+             rdfs:domain :Law_EA;
+             rdfs:range :Forensic_Dept. . 
+#  --------------------------- Property 12------------------------- 
+:analyzes rdf:type owl:ObjectProperty ;
+          rdfs:label "analyzes"@en; 
+          rdfs:domain :Forensic_Dept.;
+          rdfs:range :digital_evidence . 
+#  --------------------------- Property 13------------------------- 
+:collects rdf:type owl:ObjectProperty ;
+          rdfs:label "collects"@en; 
+          rdfs:domain :Law_EA;
+          rdfs:range :digital_evidence . 
+#  --------------------------- Property 14------------------------- 
+:CHARGES rdf:type owl:ObjectProperty ;
+         rdfs:label "CHARGES"@en; 
+         rdfs:domain :Law_EA;
+         rdfs:range :Cyber_Crtiminal . 
+#  --------------------------- Property 15------------------------- 
+:PROVIDES rdf:type owl:ObjectProperty ;
+          rdfs:label "PROVIDES"@en; 
+          rdfs:domain :Network;
+          rdfs:range :digital_evidence . 
+#  --------------------------- Property 16------------------------- 
+:Contains rdf:type owl:DatatypeProperty ;
+          rdfs:label "Contains"@en; 
+          rdfs:domain :digital_evidence;
+          rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 17------------------------- 
+:contain rdf:type owl:DatatypeProperty ;
+         rdfs:label "contain"@en; 
+         rdfs:domain :digital_evidence;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 18------------------------- 
+:charged_with_ rdf:type owl:DatatypeProperty ;
+               rdfs:label "charged "@en; 
+               rdfs:domain :Cyber_Crtiminal;
+               rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 19------------------------- 
+:provides rdf:type owl:ObjectProperty ;
+          rdfs:label "provides"@en; 
+          rdfs:domain :Computer;
+          rdfs:range :digital_evidence . 
+#  --------------------------- Property 20------------------------- 
+:type_2 rdf:type owl:DatatypeProperty ;
+        rdfs:label "type 2"@en; 
+        rdfs:domain :Techniques;
+        rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 21------------------------- 
+:type1 rdf:type owl:DatatypeProperty ;
+       rdfs:label "type1"@en; 
+       rdfs:domain :Techniques;
+       rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 22------------------------- 
+:type3 rdf:type owl:DatatypeProperty ;
+       rdfs:label "type3"@en; 
+       rdfs:domain :Techniques;
+       rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 18 ###
+#  --------------------------- Class  0------------------------- 
+:CYBERCRIME rdf:type owl:Class; 
+            rdfs:subClassOf :Cyber_Crtiminal ;
+            rdfs:subClassOf :Victim ;
+            rdfs:subClassOf :Network ;
+            rdfs:subClassOf :Computer ;
+            rdfs:subClassOf :digital_evidence ;
+            rdfs:label "CYBERCRIME"@en . 
+#  --------------------------- Class  1------------------------- 
+:Cyber_Crtiminal rdf:type owl:Class; 
+                 rdfs:subClassOf :Money_Mule ;
+                 rdfs:subClassOf :Phisher ;
+                 rdfs:label "Cyber Crtiminal"@en . 
+#  --------------------------- Class  2------------------------- 
+:Phisher rdf:type owl:Class; 
+         rdfs:label "Phisher"@en . 
+#  --------------------------- Class  3------------------------- 
+:Money_Mule rdf:type owl:Class; 
+            rdfs:label "Money Mule"@en . 
+#  --------------------------- Class  4------------------------- 
+:Victim rdf:type owl:Class; 
+        rdfs:subClassOf :Organization ;
+        rdfs:subClassOf :Individual ;
+        rdfs:label "Victim"@en . 
+#  --------------------------- Class  5------------------------- 
+:Individual rdf:type owl:Class; 
+            rdfs:label "Individual"@en . 
+#  --------------------------- Class  6------------------------- 
+:Organization rdf:type owl:Class; 
+              rdfs:label "Organization"@en . 
+#  --------------------------- Class  7------------------------- 
+:Computer rdf:type owl:Class; 
+          rdfs:label "Computer"@en . 
+#  --------------------------- Class  8------------------------- 
+:Network rdf:type owl:Class; 
+         rdfs:label "Network"@en . 
+#  --------------------------- Class  9------------------------- 
+:Law_EA rdf:type owl:Class; 
+        rdfs:label "Law EA"@en . 
+#  --------------------------- Class  10------------------------- 
+:Forensic_Dept. rdf:type owl:Class; 
+                rdfs:label "Forensic Dept."@en . 
+#  --------------------------- Class  11------------------------- 
+:Techniques rdf:type owl:Class; 
+            rdfs:label "Techniques"@en . 
+#  --------------------------- Class  12------------------------- 
+:Vulnerabilty rdf:type owl:Class; 
+              rdfs:label "Vulnerabilty"@en . 
+#  --------------------------- Class  13------------------------- 
+:Data rdf:type owl:Class; 
+      rdfs:label "Data"@en . 
+#  --------------------------- Class  14------------------------- 
+:Document rdf:type owl:Class; 
+          rdfs:label "Document"@en . 
+#  --------------------------- Class  15------------------------- 
+:Entity rdf:type owl:Class; 
+        rdfs:label "Entity"@en . 
+#  --------------------------- Class  16------------------------- 
+:Financial_Inst rdf:type owl:Class; 
+                rdfs:label "Financial Inst"@en . 
+#  --------------------------- Class  17------------------------- 
+:digital_evidence rdf:type owl:Class; 
+                  rdfs:label "digital evidence"@en . 
