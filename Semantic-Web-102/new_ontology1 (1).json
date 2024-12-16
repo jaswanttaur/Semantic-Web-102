@@ -1,0 +1,568 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/newOntology/",
+    "title": {
+      "en": "New ontology"
+    },
+    "description": {
+      "en": "New ontology description"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.61",
+      "translation": [
+        332.62,
+        -54.64
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class1",
+      "iri": "http://visualdataweb.org/newOntology/USER",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "USER",
+      "pos": [
+        1377.58,
+        -453.75
+      ]
+    },
+    {
+      "id": "Class2",
+      "iri": "http://visualdataweb.org/newOntology/CITY",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "CITY",
+      "pos": [
+        1085.08,
+        -195.99
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://visualdataweb.org/newOntology/RENT",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "RENT",
+      "pos": [
+        903.63,
+        106.98
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://visualdataweb.org/newOntology/BUY",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "BUY",
+      "pos": [
+        568.78,
+        -136.7
+      ]
+    },
+    {
+      "id": "Class10",
+      "iri": "http://visualdataweb.org/newOntology/PLOT",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "PLOT",
+      "pos": [
+        -129.38,
+        250.08
+      ]
+    },
+    {
+      "id": "Class11",
+      "iri": "http://visualdataweb.org/newOntology/FLAT",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "FLAT/ APARTMENT",
+      "pos": [
+        101.95,
+        461.88
+      ]
+    },
+    {
+      "id": "Class12",
+      "iri": "http://visualdataweb.org/newOntology/HOUSE",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "HOUSE",
+      "pos": [
+        241.1,
+        736.16
+      ]
+    },
+    {
+      "id": "Class13",
+      "iri": "http://visualdataweb.org/newOntology/1_BHK",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "1/2/3/4 BHK",
+      "pos": [
+        -501.87,
+        721.8
+      ]
+    },
+    {
+      "id": "Class16",
+      "iri": "http://visualdataweb.org/newOntology/STUDIO_APARTMENT",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "STUDIO APARTMENT",
+      "pos": [
+        -148.46,
+        740.18
+      ]
+    },
+    {
+      "id": "Class17",
+      "iri": "http://visualdataweb.org/newOntology/LOCALITY",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "LOCALITY",
+      "pos": [
+        197.86,
+        1116.67
+      ]
+    },
+    {
+      "id": "Class18",
+      "iri": "http://visualdataweb.org/newOntology/DEALER_DETAILS",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "DEALER DETAILS",
+      "pos": [
+        1171.4,
+        1058.26
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://visualdataweb.org/newOntology/SHOP",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "SHOP",
+      "pos": [
+        731.2,
+        696.08
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty23",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty24",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty25",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty26",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty31",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty32",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty33",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://visualdataweb.org/newOntology/Looking_in",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Looking in",
+      "domain": "Class1",
+      "range": "Class2",
+      "pos": [
+        1231.33,
+        -324.87
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://visualdataweb.org/newOntology/wants_to_",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "wants to ",
+      "domain": "Class2",
+      "range": "Class8",
+      "pos": [
+        994.35,
+        -44.5
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://visualdataweb.org/newOntology/wants_to_",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "wants to ",
+      "domain": "Class2",
+      "range": "Class9",
+      "pos": [
+        826.93,
+        -166.34
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty9",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class9",
+      "range": "Class10",
+      "pos": [
+        219.7,
+        56.69
+      ]
+    },
+    {
+      "id": "objectProperty10",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty10",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class9",
+      "range": "Class11",
+      "pos": [
+        335.37,
+        162.59
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class8",
+      "range": "Class11",
+      "pos": [
+        502.79,
+        284.43
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class9",
+      "range": "Class12",
+      "pos": [
+        404.94,
+        299.73
+      ]
+    },
+    {
+      "id": "objectProperty13",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class8",
+      "range": "Class12",
+      "pos": [
+        572.36,
+        421.57
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class11",
+      "range": "Class13",
+      "pos": [
+        -199.96,
+        591.84
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class11",
+      "range": "Class16",
+      "pos": [
+        -23.25,
+        601.03
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class10",
+      "range": "Class17",
+      "pos": [
+        34.24,
+        683.38
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "in",
+      "domain": "Class13",
+      "range": "Class17",
+      "pos": [
+        -152,
+        919.24
+      ]
+    },
+    {
+      "id": "objectProperty23",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "in",
+      "domain": "Class16",
+      "range": "Class17",
+      "pos": [
+        24.7,
+        928.43
+      ]
+    },
+    {
+      "id": "objectProperty24",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "in",
+      "domain": "Class12",
+      "range": "Class17",
+      "pos": [
+        219.48,
+        926.42
+      ]
+    },
+    {
+      "id": "objectProperty25",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "is managed by",
+      "domain": "Class17",
+      "range": "Class18",
+      "pos": [
+        684.63,
+        1087.47
+      ]
+    },
+    {
+      "id": "objectProperty26",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty26",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class18",
+      "range": "Class1",
+      "pos": [
+        1274.49,
+        302.26
+      ]
+    },
+    {
+      "id": "objectProperty31",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class9",
+      "range": "Class19",
+      "pos": [
+        649.99,
+        279.69
+      ]
+    },
+    {
+      "id": "objectProperty32",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": ".",
+      "domain": "Class8",
+      "range": "Class19",
+      "pos": [
+        817.41,
+        401.53
+      ]
+    },
+    {
+      "id": "objectProperty33",
+      "iri": "http://visualdataweb.org/newOntology/.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "in",
+      "domain": "Class19",
+      "range": "Class17",
+      "pos": [
+        464.53,
+        906.38
+      ]
+    }
+  ]
+}

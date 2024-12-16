@@ -1,0 +1,112 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 13 ###
+#  --------------------------- Property 0------------------------- 
+:house_number_and_Area rdf:type owl:DatatypeProperty ;
+                       rdfs:label "house number and Area"@en; 
+                       rdfs:domain :Address;
+                       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 1------------------------- 
+:Last_name rdf:type owl:DatatypeProperty ;
+           rdfs:label "Last name"@en; 
+           rdfs:domain :Name;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 2------------------------- 
+:1st_name rdf:type owl:DatatypeProperty ;
+          rdfs:label "1st name"@en; 
+          rdfs:domain :Name;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 3------------------------- 
+:city rdf:type owl:DatatypeProperty ;
+      rdfs:label "city"@en; 
+      rdfs:domain :Address;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 4------------------------- 
+:Locality rdf:type owl:DatatypeProperty ;
+          rdfs:label "Locality"@en; 
+          rdfs:domain :Address;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 5------------------------- 
+:instagram rdf:type owl:DatatypeProperty ;
+           rdfs:label "instagram"@en; 
+           rdfs:domain :social_media;
+           rdfs:range xsd:boolean . 
+#  --------------------------- Property 6------------------------- 
+:facebook rdf:type owl:DatatypeProperty ;
+          rdfs:label "facebook"@en; 
+          rdfs:domain :social_media;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 7------------------------- 
+:twitter_() rdf:type owl:DatatypeProperty ;
+            rdfs:label "twitter (X)"@en; 
+            rdfs:domain :social_media;
+            rdfs:range xsd:boolean . 
+#  --------------------------- Property 8------------------------- 
+:AADHAR_CARD rdf:type owl:DatatypeProperty ;
+             rdfs:label "AADHAR CARD"@en; 
+             rdfs:domain :FORMAL_dOCUMENTS;
+             rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+:VOTER_ID rdf:type owl:DatatypeProperty ;
+          rdfs:label "VOTER ID"@en; 
+          rdfs:domain :FORMAL_dOCUMENTS;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 10------------------------- 
+:PASSPORT rdf:type owl:DatatypeProperty ;
+          rdfs:label "PASSPORT"@en; 
+          rdfs:domain :FORMAL_dOCUMENTS;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 11------------------------- 
+:PAN_CARD rdf:type owl:DatatypeProperty ;
+          rdfs:label "PAN CARD"@en; 
+          rdfs:domain :FORMAL_dOCUMENTS;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 12------------------------- 
+:DRIVING_LICENSE rdf:type owl:DatatypeProperty ;
+                 rdfs:label "DRIVING LICENSE"@en; 
+                 rdfs:domain :FORMAL_dOCUMENTS;
+                 rdfs:range xsd:boolean . 
+###  Class Definitions (Number of Classes) 6 ###
+#  --------------------------- Class  0------------------------- 
+:Name rdf:type owl:DeprecatedClass, owl:DeprecatedProperty; 
+      rdfs:label "Name"@en . 
+#  --------------------------- Class  1------------------------- 
+:Address rdf:type owl:DeprecatedClass, owl:DeprecatedProperty; 
+         rdfs:label "Address"@en . 
+#  --------------------------- Class  2------------------------- 
+:database rdf:type owl:Class; 
+          rdfs:subClassOf :Address ;
+          rdfs:subClassOf :Name ;
+          rdfs:subClassOf :social_media ;
+          rdfs:subClassOf :AGE_(group) ;
+          rdfs:subClassOf :FORMAL_dOCUMENTS ;
+          rdfs:label "database"@en . 
+#  --------------------------- Class  3------------------------- 
+:social_media rdf:type owl:Class; 
+              rdfs:subClassOf :Name ;
+              rdfs:label "social media"@en . 
+#  --------------------------- Class  4------------------------- 
+:AGE_(group) rdf:type owl:DeprecatedClass, owl:DeprecatedProperty; 
+             rdfs:label "AGE (group)"@en . 
+#  --------------------------- Class  5------------------------- 
+:FORMAL_dOCUMENTS rdf:type owl:DeprecatedClass, owl:DeprecatedProperty; 
+                  rdfs:label "FORMAL DOCUMENTS"@en . 
