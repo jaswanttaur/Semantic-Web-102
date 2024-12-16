@@ -1,0 +1,107 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 4 ###
+#  --------------------------- Property 0------------------------- 
+:ADD_NEW_FRIENDS rdf:type owl:DatatypeProperty ;
+                 rdfs:label "ADD_NEW_FRIENDS"@IRI-based; 
+                 rdfs:label "ADD NEW FRIENDS"@en; 
+                 rdfs:domain :FIND_NRE_FRIENDS;
+                 rdfs:range rdfs:Literal . 
+#  --------------------------- Property 1------------------------- 
+:ID rdf:type owl:DatatypeProperty ;
+    rdfs:label "ID"@IRI-based; 
+    rdfs:label "ID"@en; 
+    rdfs:domain :LOG_IN;
+    rdfs:range rdfs:Literal . 
+#  --------------------------- Property 2------------------------- 
+:PASSWORD rdf:type owl:DatatypeProperty ;
+          rdfs:label "PASSWORD"@IRI-based; 
+          rdfs:label "PASSWORD"@en; 
+          rdfs:domain :LOG_IN;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 3------------------------- 
+:FRIEND_MANAGEMENT rdf:type owl:DatatypeProperty ;
+                   rdfs:label "FRIEND_MANAGEMENT"@IRI-based; 
+                   rdfs:label "FRIEND MANAGEMENT"@en; 
+                   rdfs:domain :FIND_NRE_FRIENDS;
+                   rdfs:range rdfs:Literal . 
+###  Class Definitions (Number of Classes) 12 ###
+#  --------------------------- Class  0------------------------- 
+:NEW__POST rdf:type owl:Class; 
+           rdfs:subClassOf :HOME_PAGE ;
+           rdfs:label "NEW__POST"@IRI-based; 
+           rdfs:label "NEW  POST"@en . 
+#  --------------------------- Class  1------------------------- 
+:REGISTRATION rdf:type owl:Class; 
+              rdfs:label "REGISTRATION"@IRI-based; 
+              rdfs:label "REGISTRATION"@en . 
+#  --------------------------- Class  2------------------------- 
+:HOME_PAGE rdf:type owl:Class; 
+           rdfs:subClassOf :SOCIAL_SITE ;
+           rdfs:label "HOME_PAGE"@IRI-based; 
+           rdfs:label "HOME PAGE"@en . 
+#  --------------------------- Class  3------------------------- 
+:LOG_IN rdf:type owl:Class; 
+        rdfs:label "LOG_IN"@IRI-based; 
+        rdfs:label "LOG IN"@en . 
+#  --------------------------- Class  4------------------------- 
+:SOCIAL_SITE rdf:type owl:Class; 
+             rdfs:subClassOf :FRIENDS ;
+             rdfs:subClassOf :REGISTRATION ;
+             rdfs:subClassOf :FRESH_NEWS ;
+             rdfs:subClassOf :LOG_IN ;
+             rdfs:label "SOCIAL_SITE"@IRI-based; 
+             rdfs:label "SOCIAL SITE"@en . 
+#  --------------------------- Class  5------------------------- 
+:CHECK_NEWS rdf:type owl:Class; 
+            rdfs:label "CHECK_NEWS"@IRI-based; 
+            rdfs:label "CHECK NEWS"@en . 
+#  --------------------------- Class  6------------------------- 
+:FRIENDS rdf:type owl:Class; 
+         rdfs:subClassOf :GOOD_FRIENDS ;
+         rdfs:subClassOf :FIND_NRE_FRIENDS ;
+         rdfs:label "FRIENDS"@IRI-based; 
+         rdfs:label "FRIENDS"@en . 
+#  --------------------------- Class  7------------------------- 
+:GOOD_FRIENDS rdf:type owl:Class; 
+              rdfs:label "GOOD_FRIENDS"@IRI-based; 
+              rdfs:label "GOOD FRIENDS"@en . 
+#  --------------------------- Class  8------------------------- 
+:COMMENT_NES rdf:type owl:Class; 
+             rdfs:label "COMMENT_NES"@IRI-based; 
+             rdfs:label "COMMENT NES"@en . 
+#  --------------------------- Class  9------------------------- 
+:COMMENT_POST rdf:type owl:Class; 
+              rdfs:subClassOf :HOME_PAGE ;
+              rdfs:label "COMMENT_POST"@IRI-based; 
+              rdfs:label "COMMENT POST"@en . 
+#  --------------------------- Class  10------------------------- 
+:FIND_NRE_FRIENDS rdf:type owl:Class; 
+                  rdfs:label "FIND_NRE_FRIENDS"@IRI-based; 
+                  rdfs:label "FIND NRE FRIENDS"@en . 
+#  --------------------------- Class  11------------------------- 
+:FRESH_NEWS rdf:type owl:Class; 
+            rdfs:subClassOf :COMMENT_NES ;
+            rdfs:subClassOf :CHECK_NEWS ;
+            rdfs:label "FRESH_NEWS"@IRI-based; 
+            rdfs:label "FRESH NEWS"@en . 

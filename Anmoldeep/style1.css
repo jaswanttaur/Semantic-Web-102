@@ -1,0 +1,109 @@
+.container{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.container .header{
+	width: 1200px;
+	height: 200px;
+	background-color: #ff0000;
+}
+.container .contentrow{
+	width: 1200px;
+	height: auto;
+}
+.container .contentrow .content1{
+	width: 300px;
+	height: 200;
+	background-color: #e77171;
+	float: left;
+}
+.container .contentrow .content2{
+	width: 300px;
+	height: 200;
+	background-color: #eee;
+	float: left;
+}
+.container .contentrow .content3{
+	width: 300px;
+	height: 200;
+	background-color: #e0e0e0;
+	float: left;
+}
+.container .contentrow .content4{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+}
+.container .contentrow1{
+	width: 1200px;
+	height: auto;
+}
+.container .contentrow1 .content1{
+	width: 300px;
+	height: 200;
+	background-color: #591c1c;
+	float: left;
+}
+.container .contentrow1 .content2{
+	width: 300px;
+	height: 200;
+	background-color: #e3bebe;
+	float: left;
+}
+.container .contentrow1 .content3{
+	width: 600px;
+	height: 200;
+	background-color: #f11414;
+	float: left;
+}
+.container .contentrow2{
+    width: 1200;
+    height: auto;
+}
+.container .contentrow2 .content1{
+	width: 600px;
+	height: 200;
+	background-color: #948e8e;
+	float: left;
+}
+.container .contentrow2 .content2{
+	width: 300px;
+	height: 200;
+	background-color: #49a5c7;
+	float: left;
+}
+.container .contentrow2 .content3{
+	width: 300px;
+	height: 200;
+	background-color: #b2c9d7;
+	float: left;
+}
+.container .contentrow3{
+    width: 1200;
+    height: auto;
+}
+.container .contentrow3 .content1{
+	width: 300px;
+	height: 200;
+	background-color: #4d4a4a;
+	float: left;
+}
+.container .contentrow3 .content2{
+	width: 600px;
+	height: 200;
+	background-color: #b2e2f4;
+	float: left;
+}
+.container .contentrow3 .content3{
+	width: 300px;
+	height: 200;
+	background-color: #0e70ae;
+	float: left;
+}
+.container .footer{
+    width: 1200px;
+    height: 1000;
+    background-color: rgb(85, 250, 250);
+}
