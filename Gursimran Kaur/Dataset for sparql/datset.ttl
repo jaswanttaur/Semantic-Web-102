@@ -1,0 +1,46 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://xmlns.com/foaf/0.1/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://xmlns.com/foaf/0.1/> .
+
+<http://xmlns.com/foaf/0.1/> rdf:type owl:Ontology ;
+                             dc:title "Friend of a Friend (FOAF) vocabulary"@en; 
+                             dc:description "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language."@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 4 ###
+#  --------------------------- Property 0------------------------- 
+:Gender rdf:type owl:DatatypeProperty ;
+        rdfs:label "Gender"@en; 
+        rdfs:domain :1;
+        rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:Age rdf:type owl:DatatypeProperty ;
+     rdfs:label "Age"@en; 
+     rdfs:domain :1;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:city rdf:type owl:DatatypeProperty ;
+      rdfs:label "city"@en; 
+      rdfs:domain :1;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 3------------------------- 
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:label "id"@en; 
+    rdfs:domain :1;
+    rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 1 ###
+#  --------------------------- Class  0------------------------- 
+:1 rdf:type owl:Class; 
+   rdfs:label "Alice"@en . 
