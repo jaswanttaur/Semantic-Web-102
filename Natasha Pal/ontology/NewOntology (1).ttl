@@ -1,0 +1,127 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 16 ###
+#  --------------------------- Property 0------------------------- 
+:can rdf:type owl:DatatypeProperty ;
+     rdfs:label "can"@en; 
+     rdfs:domain :City;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:rent rdf:type owl:DatatypeProperty ;
+      rdfs:label "can"@en; 
+      rdfs:domain :City;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:plot rdf:type owl:DatatypeProperty ;
+      rdfs:label "can"@en; 
+      rdfs:domain :City;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 3------------------------- 
+:buy rdf:type owl:DatatypeProperty ;
+     rdfs:label "can"@en; 
+     rdfs:domain :City;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:INFO rdf:type owl:ObjectProperty ;
+      rdfs:label "INFO"@en; 
+      rdfs:domain :Bank;
+      rdfs:range :City . 
+#  --------------------------- Property 5------------------------- 
+:INFO rdf:type owl:ObjectProperty ;
+      rdfs:label "Loan Offers"@en; 
+      rdfs:domain :Bank;
+      rdfs:range :Buyer . 
+#  --------------------------- Property 6------------------------- 
+:BUget rdf:type owl:ObjectProperty ;
+       rdfs:label "Budget"@en; 
+       rdfs:domain :Types_of_Listings;
+       rdfs:range :City . 
+#  --------------------------- Property 7------------------------- 
+:datatypeProperty rdf:type owl:DatatypeProperty ;
+                  rdfs:label "has"@en; 
+                  rdfs:domain :Types_of_Listings;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:has rdf:type owl:DatatypeProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :Types_of_Listings;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+<http://visualdataweb.org/newOntology/1/2/3> rdf:type owl:DatatypeProperty ;
+                                             rdfs:label "has"@en; 
+                                             rdfs:domain :Types_of_Listings;
+                                             rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+:apprtments rdf:type owl:DatatypeProperty ;
+            rdfs:label "has"@en; 
+            rdfs:domain :Types_of_Listings;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 11------------------------- 
+:Listed_in rdf:type owl:ObjectProperty ;
+           rdfs:label "Listed in"@en; 
+           rdfs:domain :Types_of_Listings;
+           rdfs:range :Locality . 
+#  --------------------------- Property 12------------------------- 
+:Contain rdf:type owl:DatatypeProperty ;
+         rdfs:label "Contain"@en; 
+         rdfs:domain :Agent_Details;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 13------------------------- 
+:contain rdf:type owl:DatatypeProperty ;
+         rdfs:label "contain"@en; 
+         rdfs:domain :Agent_Details;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:Recomendations rdf:type owl:ObjectProperty ;
+                rdfs:label "Recomendations"@en; 
+                rdfs:domain :Locality;
+                rdfs:range :Buyer . 
+#  --------------------------- Property 15------------------------- 
+:Details_Provided rdf:type owl:ObjectProperty ;
+                  rdfs:label "Details Provided"@en; 
+                  rdfs:domain :Agent_Details;
+                  rdfs:range :Buyer . 
+###  Class Definitions (Number of Classes) 7 ###
+#  --------------------------- Class  0------------------------- 
+:City rdf:type owl:Class; 
+      rdfs:label "City"@en . 
+#  --------------------------- Class  1------------------------- 
+:Bank rdf:type owl:Class; 
+      rdfs:label "Bank"@en . 
+#  --------------------------- Class  2------------------------- 
+:Buyer rdf:type owl:Class; 
+       rdfs:subClassOf :City ;
+       rdfs:label "Buyer"@en . 
+#  --------------------------- Class  3------------------------- 
+:Types_of_Listings rdf:type owl:Class; 
+                   rdfs:label "Types of Listings"@en . 
+#  --------------------------- Class  4------------------------- 
+:Locality rdf:type owl:Class; 
+          rdfs:subClassOf :Listing_ID ;
+          rdfs:subClassOf :Agent_Details ;
+          rdfs:label "Locality"@en . 
+#  --------------------------- Class  5------------------------- 
+:Listing_ID rdf:type owl:Class; 
+            rdfs:label "Listing ID"@en . 
+#  --------------------------- Class  6------------------------- 
+:Agent_Details rdf:type owl:Class; 
+               rdfs:label "Agent Details"@en . 

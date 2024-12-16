@@ -1,0 +1,168 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 25 ###
+#  --------------------------- Property 0------------------------- 
+:has_DOB rdf:type owl:DatatypeProperty ;
+         rdfs:label "has "@en; 
+         rdfs:domain :INFRASTRU;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:has first name rdf:type owl:DatatypeProperty ;
+                rdfs:label "has "@en; 
+                rdfs:domain :INFRASTRU;
+                rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:has_age rdf:type owl:DatatypeProperty ;
+         rdfs:label "has "@en; 
+         rdfs:domain :INFRASTRU;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 3------------------------- 
+:has_last_name rdf:type owl:DatatypeProperty ;
+               rdfs:label "has "@en; 
+               rdfs:domain :INFRASTRU;
+               rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 4------------------------- 
+:has_report_ rdf:type owl:DatatypeProperty ;
+             rdfs:label "has "@en; 
+             rdfs:domain :INFRASTRU;
+             rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :SCHOOL;
+     rdfs:range :INFRASTRU . 
+#  --------------------------- Property 6------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :SCHOOL;
+     rdfs:range :Teachers . 
+#  --------------------------- Property 7------------------------- 
+:has_certificate rdf:type owl:DatatypeProperty ;
+                 rdfs:label "has "@en; 
+                 rdfs:domain :Teachers;
+                 rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 8------------------------- 
+:has_first_name rdf:type owl:DatatypeProperty ;
+                rdfs:label "has "@en; 
+                rdfs:domain :Teachers;
+                rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 9------------------------- 
+:newDatatypeoperty rdf:type owl:DatatypeProperty ;
+                   rdfs:label "makes"@en; 
+                   rdfs:domain :Teachers;
+                   rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+: rdf:type owl:DatatypeProperty ;
+  rdfs:label "has"@en; 
+  rdfs:domain :Teachers;
+  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 11------------------------- 
+:is_od rdf:type owl:DatatypeProperty ;
+       rdfs:label "is of"@en; 
+       rdfs:domain :Teachers;
+       rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 12------------------------- 
+:hass rdf:type owl:DatatypeProperty ;
+      rdfs:label "has"@en; 
+      rdfs:domain :Tran;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 13------------------------- 
+:have_ rdf:type owl:DatatypeProperty ;
+       rdfs:label "have "@en; 
+       rdfs:domain :Tran;
+       rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:has_ rdf:type owl:DatatypeProperty ;
+      rdfs:label "has "@en; 
+      rdfs:domain :Tran;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 15------------------------- 
+:datatypeProperty25 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Tran;
+                    rdfs:range rdfs:Literal . 
+#  --------------------------- Property 16------------------------- 
+:has_board rdf:type owl:DatatypeProperty ;
+           rdfs:label "has board"@en; 
+           rdfs:domain :Class26;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 17------------------------- 
+:controlled_by rdf:type owl:DatatypeProperty ;
+               rdfs:label "controlled by"@en; 
+               rdfs:domain :Class26;
+               rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 18------------------------- 
+:objectProperty31 rdf:type owl:ObjectProperty ;
+                  rdfs:label "newObjectProperty"@en; 
+                  rdfs:domain :SCHOOL;
+                  rdfs:range :LIBRARY . 
+#  --------------------------- Property 19------------------------- 
+:has rdf:type owl:DatatypeProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :LIBRARY;
+     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 20------------------------- 
+:library rdf:type owl:DatatypeProperty ;
+         rdfs:label "has"@en; 
+         rdfs:domain :LIBRARY;
+         rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 21------------------------- 
+:imformation_ rdf:type owl:DatatypeProperty ;
+              rdfs:label "information "@en; 
+              rdfs:domain :LIBRARY;
+              rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 22------------------------- 
+:inf. rdf:type owl:DatatypeProperty ;
+      rdfs:label "info."@en; 
+      rdfs:domain :LIBRARY;
+      rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 23------------------------- 
+:has rdf:type owl:ObjectProperty ;
+     rdfs:label "has"@en; 
+     rdfs:domain :INFRASTRU;
+     rdfs:range :Tran . 
+#  --------------------------- Property 24------------------------- 
+:have rdf:type owl:ObjectProperty ;
+      rdfs:label "have"@en; 
+      rdfs:domain :Teachers;
+      rdfs:range :Tran . 
+###  Class Definitions (Number of Classes) 6 ###
+#  --------------------------- Class  0------------------------- 
+:SCHOOL rdf:type owl:Class; 
+        rdfs:subClassOf :Tran ;
+        rdfs:label "ADIMN SYSTEM"@en . 
+#  --------------------------- Class  1------------------------- 
+:INFRASTRU rdf:type owl:Class; 
+           rdfs:label "STUDENT"@en . 
+#  --------------------------- Class  2------------------------- 
+:Teachers rdf:type owl:Class; 
+          rdfs:label "Teachers"@en . 
+#  --------------------------- Class  3------------------------- 
+:Class26 rdf:type owl:Class; 
+         rdfs:subClassOf :SCHOOL ;
+         rdfs:label "SCHOOL"@en . 
+#  --------------------------- Class  4------------------------- 
+:Tran rdf:type owl:Class; 
+      rdfs:label "Transport"@en . 
+#  --------------------------- Class  5------------------------- 
+:LIBRARY rdf:type owl:Class; 
+         rdfs:label "LIBRARY"@en . 

@@ -1,0 +1,111 @@
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.container .header{
+    width: 1200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+container .contentrow1{
+    width: 1200px;
+    height: auto;
+}
+.container .contentrow1 .content1{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+.container .contentrow1 .content2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 0, 187);
+    float: left;
+}
+.container .contentrow1 .content3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(96, 26, 209);
+    float: left;
+}
+.container .contentrow1 .content4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(128, 128, 128);
+    float: left;
+}
+.container .contentrow{
+    width: 1200px;
+    height: auto;
+}
+.container .contentrow .content1{
+    width: 330px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+.container .contentrow .content2{
+    width: 420px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+.container .contentrow .content3{
+    width: 450px;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+.container .contentrow .content4{
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    float: left;
+}
+.container .contentrow2{
+    width: 1200px;
+    height: auto;
+}
+.container .contentrow .content1{
+    width: 550px;
+    height: 100px;
+    background-color: rgb(37, 32, 32);
+    float: left;
+}
+.container .contentrow .content2{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(227, 89, 15);
+    float: left;
+}
+.container .contentrow .content3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(217, 227, 8);
+    float: left;
+}
+.container .contentrow2{
+    width: 1200px;
+    height: auto;
+}
+.container .contentrow .content1{
+    width: 0px;
+    height: 100px;
+    background-color: rgb(58, 230, 28);
+    float: left;
+}
+.container .contentrow .content2{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(104, 91, 84);
+    float: left;
+}
+.container .contentrow .content3{
+    width: 550px;
+    height: 100px;
+    background-color: rgb(207, 210, 145);
+    float: left;
+}
+.
